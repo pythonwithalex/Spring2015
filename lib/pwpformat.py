@@ -1,3 +1,4 @@
+# a formatting library-in-progress
 def columnFormat(width,data):
     # prints a correctly formatted line from a sequence
     # using the equation "whitespace buffer equals column size minus string length"
