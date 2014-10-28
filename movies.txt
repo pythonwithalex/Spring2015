@@ -1,0 +1,7 @@
+TITLE,DIRECTOR,RATING
+Wayne's world, Penelope Spheeris, Excellent.
+Hausu,Nobuhiko Ôbayashi, Good and very weird.
+Slam Dunk Ernest, John R. Cherry III, 2 points.
+Air Bud 3, Bill Bannerman, woof!
+McCabe and Mrs. Miller, Robert Altman, 5 stars.
+Terminator 2, James Cameron,
