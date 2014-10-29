@@ -1,23 +1,3 @@
-# PWP week 3 Assignment: FIX MY CSV2TXT FUNCTION
-#
-# 1: Comment each line with a succinct description of what you think 
-#    it's doing.  If you don't know, try looking into it.
-#     
-# 2: Write some code to format the file like this:
-
-#    TITLE              DIRECTOR             RATING
-#    Wayne's World      Penelope Spheeris    Rating: Excellent
-#    Slam Dunk Ernest   John R. Cherry III   Rating: 2 points
-#    ...
-#
-#
-#    Hints: you can use len() and a width variable fruitfully here.
-# 
-# 3: Fix or improve anything you think needs attention if you feel comfortable.
-
-# 4: NOTE, I changed the movies.txt file to get rid of the special character
-# in Nobuhiko Obayashi's name.  This fixed an alignment issue.
-
 import sys
 
 def columnFormat(width,data):
@@ -28,7 +8,7 @@ def columnFormat(width,data):
         buffer = (width-len(i))*' '
         string_elements.append(i)
         string_elements.append(buffer)
-    return ' '.join(i for i in string_elements)
+    return ' '.join(string_elements)
 
 WIDTH = 25
 
@@ -71,4 +51,4 @@ for line in f.readlines():
             filmData[num] = "NO VALUE"
 
     print columnFormat(WIDTH,filmData)
-##    print filmData[0].strip(),(w-len(filmData[0]))*' ',filmData[1].strip(),(w-len(filmData[1]))*' ',filmData[2]
+~                                        
