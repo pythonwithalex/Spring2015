@@ -1,3 +1,5 @@
+# MY ANNOTATIONS OF THE HOMEWORK
+
 # PWP week 3 Assignment: FIX MY CSV2TXT FUNCTION
 #
 # 1: Comment each line with a succinct description of what you think
