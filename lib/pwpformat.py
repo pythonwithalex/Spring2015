@@ -1,11 +1,11 @@
-# a formatting library-in-progress
+# a text formatting library in progress
+
 def columnFormat(width,data):
-    # prints a correctly formatted line from a sequence
-    # using the equation "whitespace buffer equals column size minus string length"
+    ''' columnFormat takes in an INT 'width' and a LIST of strings, 'data'
+   and formats it for standard output according to the width value.'''
     string_elements = []
     for i in data:
         buffer = (width-len(i))*' '
         string_elements.append(i)
         string_elements.append(buffer)
     return ' '.join(i for i in string_elements)
-
