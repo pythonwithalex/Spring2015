@@ -23,8 +23,6 @@ categories = f.readline().strip().split(',')
 print ' '.join(i for i in categories)
 for line in f.readlines():
     filmData = line.strip().split(',')
-    # putting brackets around a 4, like [4]
-    # initializes a list with the number 4 in it
     for num,val in enumerate(filmData):
         if len(val) == 0:
             filmData[num] = "NO VALUE"
