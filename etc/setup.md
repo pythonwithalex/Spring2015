@@ -1,9 +1,11 @@
-# SETUP
-1. Open a Terminal ( &#8984; + Spacebar, then 't')
+# Standard Class Setup
+1. Open a Terminal ( &#8984; + Spacebar, then 'Terminal')
 2. Type 'cd Desktop'
-3. Type 'pwd' and confirm you're at your desktop
-4. Type 'iPython'
-5. Type command-N to open a new tab
-6. Type 'pwd' to confirm you're on the desktop. Now we have python in one tab and a Mac terminal prompt in the other
-7. Open Text Wrangler
-8. Save a file to the desktop called 'python_exercises.py'
+3. Type 'pwd' and confirm you're at your desktop (should say something like '/Users/Student/Desktop')
+4. Type command-N to open a new tab
+5. In the new tab, type 'iPython'
+6. Type 'pwd' to confirm you're on the desktop (should say u'/Users/Student/Desktop'). Now we have python in one tab and a Mac terminal prompt in the other.
+7. Open Text Wrangler (&#8984; + Spacebar, then 'TextWrangler')
+8. Save a file to the desktop called 'week<N>.py' where N is the week we are on.  
+
+## NOTE: We use iPython to try out basic ideas like looping over a list. We use TextWrangler to write complete functions.
