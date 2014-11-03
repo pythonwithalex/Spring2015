@@ -8,4 +8,4 @@
 7. Open Text Wrangler (&#8984; + Spacebar, then 'TextWrangler')
 8. Save a file to the desktop called 'week<N>.py' where N is the week we are on.  
 
-# NOTE: We use iPython to try out basic ideas like looping over a list. We use TextWrangler to write complete functions.
+# NOTE: We use iPython to try out basic ideas like looping over a list. We use TextWrangler to write complete functions and programs.
