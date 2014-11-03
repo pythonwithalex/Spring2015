@@ -1,5 +1,5 @@
 # SETUP
-1. Open a Terminal
+1. Open a Terminal ( &#8984; + Spacebar, then 't'
 2. Type 'cd Desktop'
 3. Type 'pwd' and confirm you're at your desktop
 4. Type 'iPython'
