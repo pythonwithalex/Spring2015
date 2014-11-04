@@ -1,3 +1,5 @@
+import sys
+
 def palindrome(word):
     end = len(word)-1
     beginning = 0
@@ -8,7 +10,10 @@ def palindrome(word):
         beginning = beginning + 1
     return True
 # open file of words
-f = open('words.txt')
+if len(sys.argv) == 2:
+    f=open(sys.argv[1])
+else:
+    f = open('words.txt')
 
 # read the file as a list of lines, give it a name
 wordlist = f.readlines()
@@ -27,11 +32,13 @@ for num,word in enumerate(wordlist):
 
 # test each word to see if it's a palindrome
 # test method:
-# 1) check first letter and last letter of each word
-# 2) if they don't match, discard them
+# 1) set two indexes, one to the beginning and one to the end of the word
+# 2) if those match, increment index of beginning, decrement index of ending
+# 3) do this while beginning index is less than ending index, so you don't double count
+# 4) if they don't match, return false
 
-print "WORDS:",', '.join(i for i in wordlist)
-print ""
+print "of the following words:\n\n",', '.join(i for i in wordlist),"\n\nthese are palindromes:\n"
+
 for word in wordlist:
     if palindrome(word):
         print word
