@@ -30,7 +30,7 @@ for num,word in enumerate(wordlist):
 # 1) check first letter and last letter of each word
 # 2) if they don't match, discard them
 
-print "WORDS:",' ,'.join(i for i in wordlist)
+print "WORDS:",', '.join(i for i in wordlist)
 print ""
 for word in wordlist:
     if palindrome(word):
