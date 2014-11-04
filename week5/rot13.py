@@ -41,4 +41,3 @@ input_string = raw_input('please enter some input text for encryption with ROT13
 # remember,we need to filter the text before shifting it
 processed_string = process_input(input_string)
 display_text(processed_string)
-~                             
