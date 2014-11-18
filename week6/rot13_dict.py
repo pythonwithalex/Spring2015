@@ -165,7 +165,7 @@ for letter in inputText:
             #we want to keep the spacing
             outputText.append(letter.lower())
     
-print "Your encrypted string is:\n %s" % ''.join(i for i in outputText)
+print "Your encrypted string is:\n%s" % ''.join(i for i in outputText)
 
 
 
