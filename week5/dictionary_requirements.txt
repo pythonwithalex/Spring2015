@@ -18,3 +18,4 @@ Improvements:
 3) find a better method of ensuring files are closed properly
 4) implement some sort of rudimentary 'did you mean X?' algorithm.
 5) make it look nicer
+6) Add a Quiz Menu Item etc for vocab
