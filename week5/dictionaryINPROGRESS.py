@@ -6,7 +6,7 @@ def insert():
     print "word: ",word
     print "definition: ",definition
     response = raw_input("Does this look okay to you?")
-    if response in ['y','Y']:
+    if response in ['y','Y','']:
         store(word,definition)
     
 def store(word,definition):
@@ -26,18 +26,31 @@ def find():
             print "definition:",definition
     raw_input("") # prevents loop from immediately continuing
     f.close()
-	
+    
 def delete():
-    f = open('default.db','rw')
+    # read current file into list of lines
+    # delete the lines you don't want using enumerate and 'del' 
+    # close the file, open it as 'w' 
+    # write modified list to it
+    # close file
     wordToDelete = raw_input("Please Enter a Word To Delete:\n")
-    while True:
-        line = f.readline()
-        if line is None:
-            break
-        else:
-            print line
+    f = open('default.db','r')
+    lines = f.readlines()
+    for num,val in enumerate(lines):
+        if wordToDelete in val:
+            del lines[num]
+    f.close()
+    f = open('default.db','w')
+    f.writelines(lines)
+    f.flush()
+    f.close()
 
-	        
+    # f = open('default.db','w')
+    # f.writelines(tmpLines)
+    # f.close()
+
+
+            
     raw_input("") # prevents loop from immediately continuing
 
     
