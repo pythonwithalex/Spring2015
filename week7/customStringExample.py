@@ -15,7 +15,8 @@ class CustomString:
 if __name__ == '__main__':   ## conditional makes sure that the following lines run if this file is run by itself
                              ## and not imported from a module.
 
-    v = CustomString('alex') ## this triggers the CustomString__init__() function
+    v = CustomString('alex') ## this creates the object v by running CustomString.__init__() class function
+                             ## v is the result, aka the object
     v.length()  
     v.scramble()
     print v.addToMe(' is a cool dude.')
