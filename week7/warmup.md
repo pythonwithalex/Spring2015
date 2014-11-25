@@ -36,4 +36,4 @@ ex. filter(isOdd,range(10))
 
 sentence = 'A kilogram weights 2.2 pounds and 1 pound is .45 kilograms'
 
-#### problem : use a list comprehension and then filter() to generate a list 'longEnough' that holds words in the string sentence that are longer than 2 characters.
+#### problem : use a list comprehension and then filter() to generate a list 'longEnough' that holds words in the string 'sentence' that are longer than 2 characters.
