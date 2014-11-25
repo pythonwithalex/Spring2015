@@ -66,14 +66,14 @@ Writing a Database Object
 		def __init__(self,db_name):
 			self.db_name = db_name
 	
-	2) define your database class and give it an init method that takes in a filename
+	5) Define your database class and give it an init method that takes in a filename
 	and stores it as self.db_file
 	
-	3) write a getDbName() function that prints self.db_file
+	6) Write a getDbName() function that prints self.db_file
 
-	3) go to the main file and outside of any function, create the global database object (call it db). 
+	7) go to the main file and outside of any function, create the global database object (call it db). 
 
-	4) review: 
+	Review: 
 		database.py file is 'database'
 		Database is the class
 		db = Database('default.db') -> db is object
