@@ -1,4 +1,4 @@
-*** DICTONARY ***
+### DICTONARY NOTES
 
 [copy PWP/week5/dictionaryINPROGRESS.py into TextWrangler] 
 
