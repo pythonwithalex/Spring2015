@@ -1,6 +1,6 @@
 ## Warmup
 
-The List Comprehension
+## List Comprehensions and filter(func,iterable)
 
 #### if I want to construct a list of odd numbers under 100, I can do it like this:
 
