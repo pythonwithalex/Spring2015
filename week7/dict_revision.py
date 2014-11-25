@@ -88,6 +88,7 @@ def delete():
 
     # an easier way is to use a list comprehension like the next python line
     # it filters lines to give me just the lines without the wordToDelete
+    # so, in short, i'm copying the list i read from the file into a new, filtered list (lines_copy)
     lines_copy = [line for line in lines if wordToDelete not in line]
 
 
