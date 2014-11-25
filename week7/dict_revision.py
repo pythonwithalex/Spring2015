@@ -1,7 +1,15 @@
+# Dictionary.py
+
+# Information about the Dictionary's functions and design
+
 # always import standard library modules first
 import os
 import re
 
+# 3rd-party libraries (e.g. Flask) go 2nd, but we aren't using them yet
+
+#import your own custom imports last
+from database import Database
 
 def clearScreen():
     os.system('clear')
@@ -36,14 +44,14 @@ def store(word,definition):
 def find():
 
     clearScreen()
+    queryWord = raw_input("Please Enter a Word To Search For:\n")
     
-    # open the file, read into list of lines, close file
+    #open the file, read into list of lines, close file
     f = open('default.db','r') # 'r' for read
     lines = f.readlines()
     f.close()
 
-    # get query from user
-    queryWord = raw_input("Please Enter a Word To Search For:\n")
+
     
     # split each line by ',' and assign results to word,def
     # if queryWord found in line, split line into word,def and print
@@ -55,6 +63,7 @@ def find():
             print "\nword:",word
             print "definition:",definition
 
+    #db.find(queryWord)
     raw_input("") # prevents loop from immediately continuing
 
 def showAll():
@@ -70,11 +79,36 @@ def showAll():
         word,definition = line.split(',')   # split into word,def
         print "\nword:",word                # print each word,def
         print "definition:",definition      # 
+
+
+    #db.showAll()
     raw_input("")                           # prevents loop from immediately continuing
 
+def update():
+    clearScreen()
+    wordToUpdate = raw_input("Please Enter the Word you Want to Update\n")
+    f = open('default.db','r')
+    lines = f.readlines()
+    f.close()
+
+    for num,val in enumerate(lines):
+        clearScreen()
+        word,definition = val.split(',')
+        if wordToUpdate in word:
+            print "word: ", word 
+            print "definition: ", definition
+            new_definition = raw_input("Please enter the updated definition:\n").strip()
+            if len(new_definition) > 0:
+                lines[num] = ''.join(i for i in [word,',',new_definition,'\n'])
+            # if you hit enter, the next def won't be updated. 
+
+    #print lines
+    f = open('default.db','w')
+    f.writelines(lines)
+    f.close()
 
 def delete():
-
+    db.getDbFile()
     wordToDelete = raw_input("Please Enter a Word To Delete:\n").strip()
     f = open('default.db','r')          # open db file
     lines = f.readlines()               # read lines into temporary list
@@ -105,6 +139,8 @@ def main():
     
     while True:
         clearScreen()
+        #db.getDbFile()
+
         for num, item in enumerate(menuItems):
             print num+1,item
         
@@ -117,7 +153,12 @@ def main():
             find()
         if response in ['3','A','A']:
             showAll()
+        if response in ['4','u','U']:
+            update()
         if response in ['5','D','d']:
             delete()
+
+# global Database object
+db = Database('default.db')
 
 main()
