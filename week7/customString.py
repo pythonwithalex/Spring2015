@@ -1,3 +1,5 @@
+# Using a class to define a custom string type
+
 class CustomString:
     def __init__(self, s):
         self.s = s
