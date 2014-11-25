@@ -10,7 +10,8 @@ class CustomString:
         self.s += new_s
         return self.s
 
-if __name__ == '__main__':
+if __name__ == '__main__':   ## conditional makes sure that the following lines run if this file is run by itself
+                             ## and not imported from a module.
 
     v = CustomString('alex') ## this triggers the CustomString__init__() function
     v.length()  
