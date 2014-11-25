@@ -27,7 +27,9 @@ Deleting Words from the Dictionary
 	2) finding word in a list constructed from the file is fine,
 	but deleting it is tricky
 
-	3) take the list constructed from file and copy it into a new list,
+	Solution?
+	
+	1) take the list constructed from file and copy it into a new list,
 	but filter what you don't want
 
 Updating Words in the Dictionary
