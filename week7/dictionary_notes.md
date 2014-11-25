@@ -1,6 +1,6 @@
 ### DICTONARY NOTES
 
-#### To start, copy [week 5 dictionary file](../master/week5/dictionaryINPROGRESS.py) into TextWrangler 
+#### To start, copy [week 5 dictionary file](../week5/dictionaryINPROGRESS.py) into TextWrangler 
 
 Testing it Out
 
