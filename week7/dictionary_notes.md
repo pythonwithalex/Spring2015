@@ -20,7 +20,7 @@ Add a FindAll Function
 
 Deleting Words from the Dictionary
 	
-	0) Problems so Far:
+	Problems so Far:
 	
 	1) finding word in file and updating it is hazardous
 
