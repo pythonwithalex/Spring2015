@@ -1,4 +1,4 @@
-class customString:
+class CustomString:
     def __init__(self, s):
         self.s = s
     def length(self):
@@ -12,7 +12,7 @@ class customString:
 
 if __name__ == '__main__':
 
-    v = customString('alex')
-    v.length()
+    v = CustomString('alex') ## this triggers the CustomString__init__() function
+    v.length()  
     v.scramble()
     print v.addToMe(' is a cool dude.')
