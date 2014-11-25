@@ -19,7 +19,8 @@ Add a FindAll Function
 	4) print word,def
 
 Deleting Words from the Dictionary
-	+ problems so far:
+	
+	0) Problems so Far:
 	
 	1) finding word in file and updating it is hazardous
 
