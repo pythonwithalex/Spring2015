@@ -9,7 +9,8 @@ class Database:
 		f.flush()
 		f.close()
 		
-db = Database('default.db')
-word = raw_input("enter a word:\n")
-definition = raw_input("enter a definition:\n")
-db.store(word,definition)
+if __name__ == '__main__':		
+    db = Database('default.db')
+    word = raw_input("enter a word:\n")
+    definition = raw_input("enter a definition:\n")
+    db.store(word,definition)
