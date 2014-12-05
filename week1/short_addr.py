@@ -1,18 +1,20 @@
 # week 2 - writing a flexible version of the id() function 
 
 # Backstory: the id() function tells us the memory address of a variable. 
-# All variables are stored somewhere, am I right!? 
-# 
+# Variables need to be stored somewhere were the computer can easily find them again.
+
+ 
 # A computer naturally stores them as numbers. 
-# 
-# here's an example: 
-# If you have a line like s = 'Michael Jordan' in your Python file 
-# and then you run the program, the computer says to itself: 
-# 
+
+ 
+# Here's an example: 
+
+# If you enter
+s = 'Michael Jordan' 
+#into the Python interpreter and then you run the program, the computer says to itself: 
+
 # Where do I have free space? 
-# Oh, I have free space at 4299245408, let's put this 'Michael Jordan' 
-# at that address. 
-# 
+# I have free space at 4299245408. I'll put s at that address. 
 # As you can tell, the memory address of a variable is a long number. 
 
 
