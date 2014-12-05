@@ -26,9 +26,9 @@ def short_addr(obj,num=4):
     '''converts id(obj) to a string and prints the last n digits''' 
 
     if num > len(str(id(obj))): 
-        print 'to whom it may concern:\n the number you have supplied \ 
-        is unfortunately greater than the length of \ 
-        the string itself!\n' 
+        print "to whom it may concern:\n the number you have supplied"
+        "is unfortunately greater than the length of" 
+        "the string itself!" 
     elif num < 0: 
         print 'number must be positive' 
     else: 
