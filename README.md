@@ -1,6 +1,6 @@
 # Programming With Python Repository
 
-This is this github for the **[INSERT DATE] BACE Programming With Python** course. It contains
+This is this github for the **Spring 2015 BACE Programming With Python** course. It contains
 + [notes]() on our tech setup, tools, and links for installation instructions for your own computers.
 + weekly assignments, exercises and notes: 
 [week 1](),
