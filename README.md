@@ -2,7 +2,7 @@
 
 This is this github for the **Fall 2014 BACE Programming With Python** course. It contains
 + [notes](https://github.com/programmingwithpython/PWP/tree/master/etc) on our tech setup, tools, and links for installation instructions for your own computers.
-+ weekly assignments, exercises and notes 
++ weekly assignments, exercises and notes: 
 [week 1](https://github.com/programmingwithpython/PWP/tree/master/week1),
 [week 2](https://github.com/programmingwithpython/PWP/tree/master/week2), 
 [week 3](https://github.com/programmingwithpython/PWP/tree/master/week3),
@@ -12,7 +12,6 @@ This is this github for the **Fall 2014 BACE Programming With Python** course. I
 [week 7](https://github.com/programmingwithpython/PWP/tree/master/week7),
 [week 8](https://github.com/programmingwithpython/PWP/tree/master/week8)
 
-+ library functions (lib folder)** that we produce in the Programming With Python course. 
-+ The **'lib'** folder has the library functions. 
-+ The **'etc'** folder has notes on our standard setup and the tools we use.  
++ [library functions](https://github.com/programmingwithpython/PWP/tree/master/lib) that we produce in the Programming With Python course. 
+
 
