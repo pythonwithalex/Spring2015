@@ -1,7 +1,7 @@
 # Programming With Python Repository
 
 This is this github for the **Fall 2014 BACE Programming With Python** course. It contains
-+ [notes](https://github.com/programmingwithpython/PWP/tree/master/etc) on our tech setup, tools, and links for installation instructions for your own computers.
++ [notes](https://github.com/programmingwithpython/PWP/tree/master/notes) on our tech setup, tools, and links for installation instructions for your own computers.
 + weekly assignments, exercises and notes: 
 [week 1](https://github.com/programmingwithpython/PWP/tree/master/week1),
 [week 2](https://github.com/programmingwithpython/PWP/tree/master/week2), 
