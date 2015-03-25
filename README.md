@@ -27,14 +27,16 @@ This class will introduce you to principles of programming using the Python prog
 
 ### Course Reading Material
 
-**Note:** You don't need to buy any books for this class unless you'd prefer to.  I'm happy to offer book suggestions. 
+You are not required to purchase any books for this course, but if you would like to and want suggestions, I'm glad to give them.
+
+Note that the reading posted for each week in the syllabus is intended to be done for the next class.
 
 ### Syllabus
 ***
 
-| Week 1 | What is a Program?, Our Tools, Variables, Data Types, Lists |
+| Week 1 | What is a Program?, Our Tools, Variables, Data Types, Lists, PEP8 style guide |
 |:-------------:|:-----|
-| reading     |  |
+| reading     | stacks, queues |
 | assignment    | List exercises |
  
 | Week 2 | Program Execution, Functions, Parameters vs Arguments, Methods  |
@@ -52,22 +54,22 @@ This class will introduce you to principles of programming using the Python prog
 | reading     |  |
 | assignment    | |
 
-| Week 5 | Filesystems, using os.walk |
+| Week 5 | Filesystems, the os.walk() function, iterators, generators |
 |:-------------:|:-----|
 | reading     |  |
 | assignment    | |
 
-| Week 6 | Object-Oriented Programming, Inheritance |
+| Week 6 | Object-Oriented Programming, Inheritance, ANSI color codes |
 |:-------------:|:-----|
 | reading     | [Python Classes and Object-Oriented Programming](http://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)  |
 | assignment    | |
 
-| Week 7 | Our Tools, What is a Program?, Writing a Few Small Programs |
+| Week 7 | Magic Methods, Writing a Blackjack Program |
 |:-------------:|:-----|
 | reading     |  |
 | assignment    | |
 
-| Week 8 | Our Tools, What is a Program?, Writing a Few Small Programs |
+| Week 8 | Review, Further Directions, Refactoring our BlackJack Program  |
 |:-------------:|:-----|
 | reading     |  |
 | assignment    | |
