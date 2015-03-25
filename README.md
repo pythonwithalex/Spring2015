@@ -9,11 +9,11 @@
 
 This class will introduce you to principles of programming using the Python programming language.  We will attempt to cover the following topics in reasonable depth:
 
-+ elements of a program 
-+ network programming
-+ functional programming
-+ systems programming
-+ object-oriented design
++ Fundamental Elements of a Computer Program
++ Text Processing
++ Object-oriented Programming
++ Functional Programming
++ Systems Programming
 
 
 #### Pre-Requisites:
@@ -27,46 +27,39 @@ This class will introduce you to principles of programming using the Python prog
 
 ### Course Reading Material
 
-**Note:** You don't need to buy any books for this class unless you'd prefer to.  The resources we will use are free.
-
-
-[TBD] (https://)
-
-**Supplementary Resources**
-
+**Note:** You don't need to buy any books for this class unless you'd prefer to.  I'm happy to offer book suggestions. 
 
 ### Syllabus
 ***
 
-
-| Week 1 | Our Tools, What is a Program?, Writing a Few Small Programs |
+| Week 1 | What is a Program?, Our Tools, Variables, Data Types, Lists |
 |:-------------:|:-----|
 | reading     |  |
-| assignment    | |
+| assignment    | List exercises |
  
-| Week 2 | Our Tools, What is a Program?, Writing a Few Small Programs |
+| Week 2 | Program Execution, Functions, Parameters vs Arguments, Methods  |
+|:-------------:|:-----|
+| reading     |  |
+| assignment    | Introduction to Scope && Exercises |
+
+| Week 3 | Working With Files, Using Libraries, Importing Modules, the ````os```` and ````sys```` libraries |
+|:-------------:|:-----|
+| reading     |  |
+| assignment    | Write your own module |
+
+| Week 4 | Workshop: Build a CSV to Text-table conversion Tool |
 |:-------------:|:-----|
 | reading     |  |
 | assignment    | |
 
-| Week 3 | Our Tools, What is a Program?, Writing a Few Small Programs |
+| Week 5 | Filesystems, using os.walk |
 |:-------------:|:-----|
 | reading     |  |
 | assignment    | |
 
-| Week 4 | Our Tools, What is a Program?, Writing a Few Small Programs |
+| Week 6 | Object-Oriented Programming, Inheritance |
 |:-------------:|:-----|
-| reading     |  |
-| assignment    | |
-
-| Week 5 | Our Tools, What is a Program?, Writing a Few Small Programs |
-|:-------------:|:-----|
-| reading     |  |
-| assignment    | |
-
-| Week 6 | Our Tools, What is a Program?, Writing a Few Small Programs |
-|:-------------:|:-----|
-| reading     |  |
+| reading     | [Python Classes and Object-Oriented Programming](http://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)  |
 | assignment    | |
 
 | Week 7 | Our Tools, What is a Program?, Writing a Few Small Programs |
