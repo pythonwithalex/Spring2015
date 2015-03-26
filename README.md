@@ -34,7 +34,7 @@ Note that the reading posted for each week in the syllabus is intended to be don
 ### Syllabus
 ***
 
-| Week 1 | What is a Program?, Our Tools, Variables, Data Types, Lists, PEP8 style guide |
+| Week 1 | What is a Program?, Our Tools, Variables, Data Types, Operators, Lists, The PEP8 Style Guide |
 |:-------------:|:-----|
 | reading     | stacks, queues |
 | assignment    | List exercises |
@@ -42,21 +42,21 @@ Note that the reading posted for each week in the syllabus is intended to be don
 | Week 2 | Program Execution, Functions, Parameters vs Arguments, Methods  |
 |:-------------:|:-----|
 | reading     |  |
-| assignment    | Introduction to Scope && Exercises |
+| assignment    | Scope Exercises |
 
-| Week 3 | Working With Files, Using Libraries, Importing Modules, the ````os```` and ````sys```` libraries |
+| Week 3 | Working With Files, Paths, Libraries (````os```` and ````sys````), Modules |
 |:-------------:|:-----|
-| reading     |  |
+| reading     | os.path.* explanation  |
 | assignment    | Write your own module |
 
-| Week 4 | Workshop: Build a CSV to Text-table conversion Tool |
+| Week 4 | Workshop: Build a Log-Parsing Tool |
 |:-------------:|:-----|
 | reading     |  |
 | assignment    | |
 
-| Week 5 | Filesystems, the os.walk() function, iterators, generators |
+| Week 5 | Filesystems, the os.walk() and fnmatch.*() functions, iterators, generators |
 |:-------------:|:-----|
-| reading     |  |
+| reading     | [David Beazly's Slides on Generators] (http://www.dabeaz.com/generators-uk/) |
 | assignment    | |
 
 | Week 6 | Object-Oriented Programming, Inheritance, ANSI color codes |
