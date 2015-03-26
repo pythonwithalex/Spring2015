@@ -18,7 +18,7 @@ This class will introduce you to principles of programming using the Python prog
 
 #### Pre-Requisites:
 
-+ Prior programming experience is recommended, but not required.  If you haven't programmed before, please familiarize yourself with the concepts in this [WikiBooks article] (http://en.wikibooks.org/wiki/Introduction_to_Programming) before the first class.
++ Prior programming experience is recommended, but not required.  If you haven't programmed before, please read this [WikiBooks article] (http://en.wikibooks.org/wiki/Introduction_to_Programming) before the first class.
 
 **Start Date**: Thursday, April 2, 2015
 
