@@ -34,12 +34,12 @@ Note that the reading posted for each week in the syllabus is intended to be don
 ### Syllabus
 ***
 
-| Week 1 | What is a Program?, Our Tools, Variables, Data Types, Operators, Lists, The PEP8 Style Guide |
+| Week 1 | What is a Program?, Our Tools, Variables, Data Types, Operators, Lists, The PEP8 Style Guide, Getting Information about Your Program |
 |:-------------:|:-----|
 | reading     | stacks, queues |
 | assignment    | List exercises |
  
-| Week 2 | Program Execution, Functions, Parameters vs Arguments, Methods  |
+| Week 2 | Program Execution Model, Functions, Parameters vs Arguments, Methods  |
 |:-------------:|:-----|
 | reading     |  |
 | assignment    | Scope Exercises |
@@ -47,29 +47,29 @@ Note that the reading posted for each week in the syllabus is intended to be don
 | Week 3 | Working With Files, Paths, Libraries (````os```` and ````sys````), Modules |
 |:-------------:|:-----|
 | reading     | os.path.* explanation  |
-| assignment    | Write your own module |
+| assignment    | Write at least one module and import into a main file to solve the HW question |
 
 | Week 4 | Workshop: Build a Log-Parsing Tool |
 |:-------------:|:-----|
 | reading     |  |
 | assignment    | |
 
-| Week 5 | Filesystems, the os.walk() and fnmatch.*() functions, iterators, generators |
+| Week 5 | Filesystems, the os.walk method and fnmatch module, iterators, generators |
 |:-------------:|:-----|
 | reading     | [David Beazly's Slides on Generators] (http://www.dabeaz.com/generators-uk/GeneratorsUK.pdf) |
-| assignment    | |
+| assignment    |  |
 
 | Week 6 | Object-Oriented Programming, Inheritance, ANSI color codes |
 |:-------------:|:-----|
 | reading     | [Python Classes and Object-Oriented Programming](http://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)  |
 | assignment    | |
 
-| Week 7 | Magic Methods, Writing a Blackjack Program |
+| Week 7 | Object-Oriented Programming, Magic Methods, Writing a Blackjack Program |
 |:-------------:|:-----|
 | reading     |  |
 | assignment    | |
 
-| Week 8 | Review, Further Directions, Refactoring our BlackJack Program  |
+| Week 8 | Refactoring our BlackJack Program, Review of the Critical Stuff, Further Directions |
 |:-------------:|:-----|
 | reading     |  |
-| assignment    | |
+| assignment    | Find yourself a project  |
