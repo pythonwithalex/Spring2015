@@ -56,7 +56,7 @@ Note that the reading posted for each week in the syllabus is intended to be don
 
 | Week 5 | Filesystems, the os.walk() and fnmatch.*() functions, iterators, generators |
 |:-------------:|:-----|
-| reading     | [David Beazly's Slides on Generators] (http://www.dabeaz.com/generators-uk/) |
+| reading     | [David Beazly's Slides on Generators] (http://www.dabeaz.com/generators-uk/GeneratorsUK.pdf) |
 | assignment    | |
 
 | Week 6 | Object-Oriented Programming, Inheritance, ANSI color codes |
