@@ -47,7 +47,7 @@ Note that the reading posted for each week in the syllabus is intended to be don
 | Week 3 | Working With Files, Paths, Libraries (````os```` and ````sys````), Modules |
 |:-------------:|:-----|
 | reading     | os.path.* explanation  |
-| assignment    | Write at least one module and import into a main file to solve the HW question |
+| assignment    | Write a module to accomplish a well-defined part of the HW's main task, import that into a main file that uses the module |
 
 | Week 4 | Workshop: Build a Log-Parsing Tool |
 |:-------------:|:-----|
@@ -57,12 +57,12 @@ Note that the reading posted for each week in the syllabus is intended to be don
 | Week 5 | Filesystems, the os.walk method and fnmatch module, iterators, generators |
 |:-------------:|:-----|
 | reading     | [David Beazly's Slides on Generators] (http://www.dabeaz.com/generators-uk/GeneratorsUK.pdf) |
-| assignment    |  |
+| assignment    | write a script using os.walk to print the total number of directories and regular files contained within your User directory  |
 
-| Week 6 | Object-Oriented Programming, Inheritance, ANSI color codes |
+| Week 6 | Object-Oriented Programming,  Inheritance, ANSI color codes |
 |:-------------:|:-----|
 | reading     | [Python Classes and Object-Oriented Programming](http://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)  |
-| assignment    | |
+| assignment    |  |
 
 | Week 7 | Object-Oriented Programming, Magic Methods, Writing a Blackjack Program |
 |:-------------:|:-----|
