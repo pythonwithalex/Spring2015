@@ -39,10 +39,10 @@ Note that the reading posted for each week in the syllabus is intended to be don
 | reading     | stacks, queues |
 | assignment    | List exercises |
  
-| Week 2 | Program Execution Model, Functions, Parameters vs Arguments, Methods  |
+| Week 2 | Program Execution Model, Functions, Parameters vs Arguments, Methods, Sorting  |
 |:-------------:|:-----|
 | reading     |  |
-| assignment    | Scope Exercises |
+| assignment    | Scope Exercises, sorting exercises |
 
 | Week 3 | Working With Files, Paths, Libraries (````os```` and ````sys````), Modules |
 |:-------------:|:-----|
@@ -54,17 +54,17 @@ Note that the reading posted for each week in the syllabus is intended to be don
 | reading     |  |
 | assignment    | |
 
-| Week 5 | Filesystems, the os.walk method and fnmatch module, iterators, generators |
+| Week 5 | Filesystems, the os.walk method and fnmatch module, iterators |
 |:-------------:|:-----|
 | reading     | [David Beazly's Slides on Generators] (http://www.dabeaz.com/generators-uk/GeneratorsUK.pdf) |
 | assignment    | write a script using os.walk to print the total number of directories and regular files contained within your User directory  |
 
-| Week 6 | Object-Oriented Programming,  Inheritance, ANSI color codes |
+| Week 6 | Object-Oriented Programming, Classes, Objects, Fun with ANSI color codes |
 |:-------------:|:-----|
 | reading     | [Python Classes and Object-Oriented Programming](http://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)  |
 | assignment    |  |
 
-| Week 7 | Object-Oriented Programming, Magic Methods, Writing a Blackjack Program |
+| Week 7 | Object-Oriented Programming Continued, Magic Methods, Writing a Blackjack Program |
 |:-------------:|:-----|
 | reading     |  |
 | assignment    | |
