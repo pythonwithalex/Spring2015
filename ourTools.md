@@ -13,7 +13,10 @@ python
 In [3]:
 ````
 
+#### TextWrangler
 * We can write our full Python programs in a text editor like TextWrangler.  Once we're done, we can save this file to a file ending in '.py' in the /Users/Student or /Users/Student/Desktop directories.
+
+#### The Apple Terminal
 * We run our Python programs as ````python python myprog.py```` in the Apple Terminal
 
 ````bash
