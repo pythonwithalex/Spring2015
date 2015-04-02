@@ -6,6 +6,7 @@
 
 ````bash
 student: ~$ ipython
+# starts IPython
 In [1]: w = 'python'
 In [2]: print w
 python
