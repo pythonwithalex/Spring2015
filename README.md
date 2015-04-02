@@ -36,8 +36,8 @@ Note that the reading posted for each week in the syllabus is intended to be don
 
 | Week 1 | What is a Program?, Our Tools, Variables, Data Types, Operators, Lists, The PEP8 Style Guide, Getting Information about Your Program |
 |:-------------:|:-----|
-| reading     | stacks, queues |
-| assignment    | List exercises |
+| reading     | [Python Tutorial on Lists](https://docs.python.org/2/tutorial/datastructures.html) |
+| assignment    | [List exercises]() |
  
 | Week 2 | Program Execution Model, Functions, Parameters vs Arguments, Methods, Sorting  |
 |:-------------:|:-----|
