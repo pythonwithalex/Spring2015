@@ -76,42 +76,62 @@ Running the Code Example:
 
 Let's say the 2nd example I gave you above is a program saved in a file called showlines.py.  I would run this like so:
 
-````python
+````bash
 alex@terminal $ python showlines.py
 Your explanation isn't very scientific, but it does make sense to me.
 Most scientists would agree that scientific inquiry is at the heart of progress.
 alex@terminal $
-````python
+````
 
 In the example above, we told the Python interpreter to execute the python file showlines.py.   
 The interpreter reads the python program and attempts to make sense of the code there.
 If the program has no syntax errors, the statements are then executed
 
-Parts of a Program
+#### Parts of a Program
 
-Comments: Any line with # at the beginning is a comment.  This means that the python interpreter 'knows' ahead of time to ignore those lines.
+**Comments**: Any line with # at the beginning is a comment.  This means that the python interpreter 'knows' ahead of time to ignore those lines.
 
-Variables: A variable is a name for a continually available place in storage where you want to put a certain value.  You call it something that is easy to remember and descriptive so that you can refer to that value again at any time.  
+**Variables**: A variable is a name for a continually available place in storage where you want to put a certain value.  You call it something that is easy to remember and descriptive so that you can refer to that value again at any time.  
 
 name = 'Robert'
 new = False
 count = 15
 
-Operators: These operate on/ perform computations with values. Some are binary (require two values) and some are not. We will mostly use binary operators.
+**Operators**: These operate on/ perform computations with values. Some are binary (require two values) and some are not. We will mostly use binary operators.
 
-Expressions: An expression is a set of one or more values that are 'operated' on. operators reduce a number of values to less values, usually one, so that the computer can use the computed value.
+**Expressions**: An expression is a set of one or more values that are 'operated' on. operators reduce a number of values to less values, usually one, so that the computer can use the computed value.
 
 5
 4*4
 Math.sqrt(4)
 4 - 0
 
-Statements:  
-A statement results in a change in the program's overall data.  One sure sign that you're looking at a statement is that it includes a single equals sign, '='.  This is a sure sign because the '=' means "keep track of this value by this name".  But statements aren't limited to explicit assignments.  They can be things like import statements or even just literals.
+**Statements**:  A statement results in a change in the program's overall data.  One sure sign that you're looking at a statement is that it includes a single equals sign, '='.  This is a sure sign because the '=' means "keep track of this value by this name".  But statements aren't limited to explicit assignments.  They can be things like import statements or even just literals.
 
-Variable Assignment: an assignment is a statement that uses a variable name, the '=' operator, and an expression.   The rule is that the left hand side of '=' is always the name for a value stored in memory and not a useful value itself.
+**Variable Assignment**: an assignment is a statement that uses a variable name, the '=' operator, and an expression.   The rule is that the left hand side of '=' is always the name for a value stored in memory and not a useful value itself.
 
 
 Why Variables?
 
-They save you repetition and you can use very simple syntactic measures to imply hierarchy.
+They save you repetition and lend some humanity to your program.
+
+Look at a few cases with variables:
+
+Some variables are replaced with new values rapidly
+
+````python
+for item in my_grocery_list:
+  print item
+````
+
+some variables don't change at all
+
+````python
+GRAVITY = 9.8
+PI = 3.14
+````
+
+and some change at random 
+````python
+tomorrows_weather = weather_miner.tomorrow['description']['short']
+````
