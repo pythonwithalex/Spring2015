@@ -10,7 +10,11 @@ Apple Terminal - this will be our programming environment for this course.  This
 
 You can start the Terminal from /Applications/Utilities/Terminal, or with the shortcut sequence:  ⌘ + Spacebar + 'Terminal'.
 
-Any terminal generally has two states: 1) It waits for you to enter input, and 2)  it runs your commands.  The line of text that appears when it is waiting for you to enter a command is called a prompt. You enter a command by typing something meaningful to the computer in text and then hitting return. If you have requested information back, it will display it and then show you a new prompt.  If a command isn't supposed to print any information, then you will just see a new prompt.
+Any terminal generally has two states: 
++ It waits for you to enter input
++ It runs your commands.  
+
+The line of text that appears when it is waiting for you to enter a command is called a prompt. It tells you which user you are and which directory you are in the filesystem ('~' means /Users/Student in our case). You enter a command by typing it into the terminal and then hitting return. If you have requested information back, it will display it and then show you a new prompt.  If a command isn't supposed to print any information, then you will just see a new prompt.
 
 Here's an example:
 
@@ -23,23 +27,19 @@ alex@terminal $ mv file1.txt file2.txt
 alex@terminal $
 ````
 
-Python Interpreter - from the Apple Terminal, type 'python' and press Enter, like this:
+IPython - from the Apple Terminal, type 'ipython' and press Enter, like this:
 
-alex@terminal $
->>> 
-
-Then you can enter the Python interpreter
-
-alex@terminal $ python
->>> print 15
+````bash
+alex@terminal $ ipython
+In [1]: print 15
 15
->>> print 15*30
+In [2]: print 15*30
 450
->>> print 'abc'
+In [3]: print 'abc'
 abc
+````
 
-The Python interpreter is a terminal interface between the python interpreter and you, the programmer.  Whereas the Apple Terminal lets you manipulate the OS in a pretty direct way ( you can find out which directory you are in, transfer files, edit files, etc all from the terminal), the Python interpreter allows you to enter python statements and python interpreter specific commands.
-
+The IPython application is a terminal interface between the python interpreter and you, the programmer.  Whereas the Apple Terminal lets you manipulate the OS in a pretty direct way ( you can find out which directory you are in, transfer files, edit files, etc all from the terminal), the IPython interpreter allows you to enter python statements and python interpreter specific commands.
 
 What is a Program? 
 
