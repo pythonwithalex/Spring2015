@@ -51,10 +51,15 @@ Examples of simple tasks that we might want a computer to do for us:
 
 In Python:
 ````python
+# find positive perfect squares below 100
+
 import math
-max = 200
-perfect_squares = [ num for num in range(1,max) if math.sqrt(num) %2.00 == 0 ]
-print perfect_squares
+
+max = 100
+perfect_squares = []
+for i in range(1,max):
+    if i*i < 100:
+        print i*i
 ````
 
 2. Open a file and read it line by line, printing only the lines that contain a specific word.
@@ -86,6 +91,10 @@ alex@terminal $
 In the example above, we told the Python interpreter to execute the python file showlines.py.   
 The interpreter reads the python program and attempts to make sense of the code there.
 If the program has no syntax errors, the statements are then executed
+
+
+#### Where is a Program?
+
 
 #### Parts of a Program
 
