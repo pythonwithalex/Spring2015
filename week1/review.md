@@ -6,7 +6,7 @@ Please ask questions! Everyone benefits from questions so please don't be shy.
 
 #### Our Tools
 
-Apple Terminal - this will be our programming environment for this course.  This means that we will run everything (except our Text Editor) from the terminal. Instead of manipulating the Operating System via a mouse, you are giving the operating system instructions in the form of text.  Part of learning to program in any language is learning more about your computer: how it works, the various tools that it offers you, efficient workflows, programmatic thinking.  A Graphical environment simplifies things, but it can also hide ways to do things more efficiently and with greater control.
+Apple Terminal - this will be our programming environment for this course.  This means that we will run everything (except our Text Editor) from the terminal. Instead of manipulating the Operating System via a mouse, you are giving the operating system instructions in the form of text.  Part of learning to program in any language is learning more about your computer: how it works, the various tools that it offers you, efficient workflows, programmatic thinking.  A Graphical environment simplifies things, but it can also hide ways to do things more efficiently and with greater control. 
 
 You can start the Terminal from /Applications/Utilities/Terminal, or with the shortcut sequence:  ⌘ + Spacebar + 'Terminal'.
 
@@ -43,7 +43,7 @@ The IPython application is a terminal interface between the python interpreter a
 
 #### What is a Program? 
 
-A program is a set of statements that ask a computer to do specific things. A program is useful if it completes a specific task.  A task could be very simple, or it could could be comprised of multiple separate tasks that handle distinct sub-parts of the original task.
+A program is a set of statements that ask a computer to do specific things. A program is useful if it completes a specific task in a reasonable amount of time.  A task could be very simple, or it could could be comprised of multiple separate tasks that handle distinct sub-parts of the original task.
 
 Examples of simple tasks that we might want a computer to do for us:
 
