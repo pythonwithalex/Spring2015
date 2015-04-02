@@ -9,6 +9,7 @@ student: ~$ ipython
 In [1]: w = 'python'
 In [2]: print w
 python
+In [3]:
 ````
 
 * After testing our ideas out in IPython, we write our full Python programs in a text editor like TextWrangler, and save them to either /Users/Student or /Users/Student/Desktop.
