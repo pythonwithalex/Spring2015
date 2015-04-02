@@ -2,8 +2,6 @@
 
 #### Anaconda
 
-If you have a **Mac** or **Linux** system at home, you already have Python (probably 2.7).  However, if you have a Windows machine or want to take advantage of some of the great Python tools out there without wrestling with the installation process, the easiest solution is to download and install Continuum Analytic's [Anaconda Package](https://store.continuum.io/cshop/anaconda/).
+If you want Python on your computer at home, you can download the same Python package that we have at BACE. Continuum Analytic's [Anaconda Package](https://store.continuum.io/cshop/anaconda/) is a great all-in-one installation that gives you a lot of useful libraries.  Most of them you won't have a need for at the moment, but Ipython is worth the download alone.  
 
-This is the same installation of Python that we have on the computers at BACE.  It has a ton of popular and useful libraries (many of which we won't touch in this course), it doesn't interfere with your system Python installation, and it also doesn't require admin priviledges for you to use those libraries in your user directories.
-
-They do require your email address in order to download Anaconda, but not registration or any money.
+They do require your email address in order to download Anaconda, but no money or registration is required.
