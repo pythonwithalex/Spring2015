@@ -24,8 +24,10 @@ student: ~$ python myprog.py
 please enter a number and I will square it:
 ````
 
-#### Review
+#### Recap
 
-Ipython         -> Testing individual lines of code
-Text-wrangler   -> Writing our Full Program
+IPython         -> Testing individual lines of code
+
+TextWrangler   -> Writing our full Program
+
 Apple Terminal  -> We run our Python program from the Apple Terminal and we can navigate the Operating System in its text representation.
