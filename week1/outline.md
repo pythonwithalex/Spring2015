@@ -1,11 +1,11 @@
 ## Outline for First Class
 
 #### Setup
-
 + Our Tools: Python Interpreter, Python Binary, Text-Editor, IPython
-+ Testing the Python Interpreter
-+ Testing a Python File
 + Check the Python Version
++ Running 'hello world' in IPython
++ Saving helloworld.py to a file with TextWrangler
++ Running helloworld.py from the terminal
 
 #### Concepts
 
