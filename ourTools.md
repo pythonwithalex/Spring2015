@@ -1,6 +1,16 @@
-# A Quick Review of the Tools We Are Using
+# Our Workflow & Tools
 
-* We are writing our python scripts in TextWrangler and saving them to our Desktop as <filename>.py
-* We are using the Mac Terminal application to access our operating system as it is represented through text.
-* With Terminal, we navigate from our 'Student' home directory to our desktop by doing 'cd Desktop'.
+````bash
+student: ~$ ipython
+````
+
+* We test our Python ideas in the IPython shell. This gives us immediate feedback about our python statements.
+* After testing our ideas out in IPython, we write our full Python programs in a text editor like TextWrangler, and save them to either /Users/Student or /Users/Student/Desktop.
+* We run our Python programs 
+* 
+
+IPYTHON       -> Testing
+TEXT-WRANGLER -> Writing our Full Program
+TERMINAL      -> We run our Python program here and we can navigate the Operating System in its text representation.
+
 * From there, we use the python interpreter to run the .py file we saved there by doing 'python string1.py' for example
