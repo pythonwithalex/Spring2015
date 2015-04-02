@@ -111,7 +111,7 @@ Math.sqrt(4)
 **Variable Assignment**: an assignment is a statement that uses a variable name, the '=' operator, and an expression.   The rule is that the left hand side of '=' is always the name for a value stored in memory and not a useful value itself.
 
 
-Why Variables?
+#### Why Variables?
 
 They save you repetition and lend some humanity to your program.
 
