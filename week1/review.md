@@ -41,7 +41,7 @@ abc
 
 The IPython application is a terminal interface between the python interpreter and you, the programmer.  Whereas the Apple Terminal lets you manipulate the OS in a pretty direct way ( you can find out which directory you are in, transfer files, edit files, etc all from the terminal), the IPython interpreter allows you to enter python statements and python interpreter specific commands.
 
-What is a Program? 
+#### What is a Program? 
 
 A program is a set of statements that ask a computer to do specific things. A program is useful if it completes a specific task.  A task could be very simple, or it could could be comprised of multiple separate tasks that handle distinct sub-parts of the original task.
 
@@ -50,22 +50,24 @@ Examples of simple tasks that we might want a computer to do for us:
 1. Find the perfect squares below 200
 
 In Python:
-
+````python
 import math
 max = 200
 perfect_squares = [ num for num in range(1,max) if math.sqrt(num) %2.00 == 0 ]
 print perfect_squares
+````
 
 2. Open a file and read it line by line, printing only the lines that contain a specific word.
 
 In Python:
-
+````python
 f = open('myparagraph.txt')
 content = f.readlines()
 f.close()
 for line in f:
   if 'scientific' in line:
     print line
+````
 
 You usually type these statements into a text editor, save it as a .py file, and then run the file from the terminal.  The python program you run from the terminal reads in your source file starting at the top of the file until it reaches the bottom, attempting to translate the statements into code that the machine can then run. When the code is fully translated (and the syntax is error-free), it runs your program.  When the program runs, if you have asked the computer to print information in your program, you will get some output in the terminal.  Otherwise you won't get anything.  Or you'll get error messages from Python.  The code I've given above may look complicated at this point (soon, it won't be, I promise), but the language that it gets translated into is much more complicated as it doesn't contain anything that a human could easily remember.  Fortunately, we don't worry about the translation, just the python code.  
 
@@ -74,11 +76,12 @@ Running the Code Example:
 
 Let's say the 2nd example I gave you above is a program saved in a file called showlines.py.  I would run this like so:
 
+````python
 alex@terminal $ python showlines.py
 Your explanation isn't very scientific, but it does make sense to me.
 Most scientists would agree that scientific inquiry is at the heart of progress.
 alex@terminal $
-
+````python
 
 In the example above, we told the Python interpreter to execute the python file showlines.py.   
 The interpreter reads the python program and attempts to make sense of the code there.
