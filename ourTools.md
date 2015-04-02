@@ -2,7 +2,7 @@
 
 #### IPYTHON
 
-+ We can test our Python ideas in an application called IPython (interactive python). IPython lets us run a program line by line instead of all at once.  The value is that we get immediate feedback about our code.
++ We can test our Python ideas in an application called IPython (interactive python). IPython lets us run a program line by line instead of all at once.  The value is in the immediate feedback we get about our code.
 
 ````bash
 student: ~$ ipython
