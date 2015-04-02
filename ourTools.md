@@ -13,12 +13,16 @@ python
 In [3]:
 ````
 
-* After testing our ideas out in IPython, we write our full Python programs in a text editor like TextWrangler, and save them to either /Users/Student or /Users/Student/Desktop.
-* We run our Python programs 
-* 
+* We can write our full Python programs in a text editor like TextWrangler.  Once we're done, we can save this file to a file ending in '.py' in the /Users/Student or /Users/Student/Desktop directories.
+* We run our Python programs as ````python python myprog.py```` in the Apple Terminal
 
-IPYTHON       -> Testing
-TEXT-WRANGLER -> Writing our Full Program
-TERMINAL      -> We run our Python program here and we can navigate the Operating System in its text representation.
+````bash
+student: ~$ python myprog.py
+please enter a number and I will square it:
+````
 
-* From there, we use the python interpreter to run the .py file we saved there by doing 'python string1.py' for example
+#### Review
+
+Ipython         -> Testing individual lines of code
+Text-wrangler   -> Writing our Full Program
+Apple Terminal  -> We run our Python program from the Apple Terminal and we can navigate the Operating System in its text representation.
