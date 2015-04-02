@@ -29,7 +29,7 @@ This class will introduce you to principles of programming using the Python prog
 
 You are not required to purchase any books for this course, but if you would like to and want suggestions, I'm glad to give them.
 
-Note that the reading posted for each week in the syllabus is intended to be done for the next class.
+Note that the reading posted for each week in the syllabus is intended to be done for the ***next*** class.
 
 ### Syllabus
 ***
