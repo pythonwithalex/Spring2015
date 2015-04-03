@@ -1,4 +1,4 @@
-## Useful Python Resources
+## Python Links
 
 + [PyVideo - a Python Conference Video Archive](http://pyvideo.org/)
 
