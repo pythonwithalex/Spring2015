@@ -8,3 +8,6 @@
 + boolean: A True or False value.
 + integer: a whole number, no decimal or fractional part.
 + float: a number with a decimal point / fractional component.
++ help(): a useful python function that gives you information about an object
+    - e.g. help(myage) will tell you about integers (assuming an integer variable 'myage' exists already in your program
+    - e.g. help(math) will tell you about the math library (assuming you've imported it)
