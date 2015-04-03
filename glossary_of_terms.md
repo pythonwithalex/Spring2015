@@ -1,4 +1,4 @@
-## Glossary of Python Terminology
+## Glossary of Terms
 
 + sequence: an ordered collection of data
 + string: a sequence of characters surrounded by quotes
