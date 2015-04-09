@@ -16,7 +16,9 @@ y += [6,'7',8,[9,10]]
 print y
 ````
 
-## 2: find the sum of all even numbers under 100 that contain a '4' or a '2'
+## 2a: Print all the numbers under 100 that contain a '4' or a '2'.
+
+## 2b: print the sum of all numbers under 100 that contain a '4' or a '2'.
 
 ## 3: Swap Values 
 
