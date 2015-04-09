@@ -5,7 +5,7 @@
 
 import random
 
-# notable built-ins:
+# notable funcs:
 #  random.randrange -> gives you a random integer in range(M,N-1)
 #  chr -> turns a number into an ASCII character
 
