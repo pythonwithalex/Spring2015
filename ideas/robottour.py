@@ -1,10 +1,7 @@
 #!/usr/bin/env python
 
-# In progress
-
-# problem taken from Skiena's Algorithm Design Manual
-# This is an incorrect way to calculate the most optimal route for a robot
-# arm to hit each contact point in a set of contact points
+# This is the naive closest neighbor approach to finding the most optimal route 
+# for a robot arm to hit each contact point in a set of contact points
 # and return to the original 
 
 import math
