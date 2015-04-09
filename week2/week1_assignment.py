@@ -2,8 +2,7 @@
 
 # q: how many unique words in sentence?
 
-s = "Thrift is poetic because it is creative; waste is unpoetic because it is wa
-ste."
+s = "Thrift is poetic because it is creative; waste is unpoetic because it is waste."
 
 # manually compute answer
 # 8 unique words
