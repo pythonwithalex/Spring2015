@@ -8,6 +8,10 @@ ste."
 # manually compute answer
 # 8 unique words
 
+# filter punctuation out without using control structures
+# s = s.replace(';')
+# s = s.replace('.')
+
 # filter punctuation not part of a word
 exclude = [';',':','/','.','-']
 
