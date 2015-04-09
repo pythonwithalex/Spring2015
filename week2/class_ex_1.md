@@ -1,11 +1,11 @@
-## 1: Which line in list 2 causes its output to differ from list 1 ?
+## 1: Which line in the list 'y' code causes its output to differ from list 'l' ?
 
 ````python
 l = [num for num in range(4)]
 l.append('four')
 l.extend([5.0,6])
 l += ['7',16/2,[9,10]]
-print l
+print 'list l: ', l
 ````
 
 ````python
@@ -13,7 +13,7 @@ y = []
 y.extend(range(3))
 y.append(['four',5.0])
 y += [6,'7',8,[9,10]]
-print y
+print 'list y: ',y
 ````
 
 ## 2a: Print all the numbers under 100 that contain a '4' or a '2'.
