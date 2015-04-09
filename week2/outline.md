@@ -3,3 +3,4 @@
 + lists
 + writing our own functions
 + string methods (upper, replace, format, join)
++ proto-backend for a blog
