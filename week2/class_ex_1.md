@@ -16,10 +16,5 @@ y += [6,'7',8,[9,10]]
 print y
 ````
 
-## 2: find the sum of all even numbers under 100 that contain a '4'
+## 2: find the sum of all even numbers under 100 that contain a '4' or a '2'
 
-````python
-for i in range(100):
-    if '4' in str(i):
-        print i
-````
