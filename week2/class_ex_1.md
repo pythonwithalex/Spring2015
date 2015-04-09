@@ -50,7 +50,7 @@ print id(b)
 # prints 7646720
 ````
 
-It is useful, but we could make the information given by the id() function easier to read if we only show the last **N** digits are shown.
+It is useful, but we could make the information given by the id() function easier to read if we only show the last **N** digits.
 
 + Write a function called **shortaddr** that takes in one positive integer, N, and returns the last N digits of the memory address.  
 + You should use the id() function in your function.  
