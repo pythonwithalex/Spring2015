@@ -52,6 +52,14 @@ print id(b)
 
 It is useful, but we could make the information given by the id() function easier to read if we only show the last **N** digits are shown.
 
-+ Write a function that takes in one positive integer, N, and returns the last N digits of the memory address.  
++ Write a function called **shortaddr** that takes in one positive integer, N, and returns the last N digits of the memory address.  
 + You should use the id() function in your function.  
 + If the integer N is larger than the size of the number id() returns, then just return the results of id().
+
+````python
+def shortaddr():
+  # code
+  
+val = 150
+print shortaddr(val)
+````
