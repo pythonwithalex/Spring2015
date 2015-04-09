@@ -1,4 +1,5 @@
-## Week 2
+## Week 2 Outline
 
-string methods
-list methods
++ lists
++ writing our own functions
++ string methods (upper, replace, format, join)
