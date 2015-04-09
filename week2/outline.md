@@ -5,4 +5,4 @@
 + conditionals
 + writing our own functions ( uses class_exercises.md )
 + debugging an existing function
-+ proto-backend for a blog
++ very simple blog backend
