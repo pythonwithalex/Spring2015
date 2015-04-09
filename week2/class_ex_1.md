@@ -1,4 +1,4 @@
-## 1: which line in list 2 causes it to differ from list 1 ?
+## 1: Which line in list 2 causes its output to differ from list 1 ?
 
 ````python
 l = [num for num in range(4)]
