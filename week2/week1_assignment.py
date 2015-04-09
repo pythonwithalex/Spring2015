@@ -1,9 +1,19 @@
 #!/usr/bin/env python
+# Steps
+# 1.  compute answer mentally so we can verify our code works
+# 2.  filter punctuation out without using control structures
+# 3.  filter punctuation not part of a word
+# 4.  ensure Thrift and thrift are treated the same
+# 5.  split words
+# 6.  eliminate duplicates
+# 7.  count unique words
+
 
 # q: how many unique words in sentence?
 
 original = "Thrift is poetic because it is creative; waste is unpoetic because it is waste."
-modified = ""
+modified = original[:]
+
 # manually compute answer
 # 8 unique words
 
@@ -16,7 +26,8 @@ exclude = [';',':','/','.','-']
 
 for char in exclude:
   if char in original:
-    modified = original.replace(char,'')
+    modified = modified.replace(char,'')
+    print modified
 
 # filter punctuation with list comprehensions and ''.join()
 # modified = [char for char in original if char not in exclude]
@@ -36,3 +47,5 @@ print word_set
 # count unique words
 unique_words = len(word_set)
 print 'There are {} unique words in the sentence "{}"'.format(unique_words,original)
+
+# rebuild original sentence from modified one
