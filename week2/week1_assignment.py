@@ -2,8 +2,8 @@
 
 # q: how many unique words in sentence?
 
-s = "Thrift is poetic because it is creative; waste is unpoetic because it is waste."
-
+original = "Thrift is poetic because it is creative; waste is unpoetic because it is waste."
+modified = ""
 # manually compute answer
 # 8 unique words
 
@@ -15,14 +15,18 @@ s = "Thrift is poetic because it is creative; waste is unpoetic because it is wa
 exclude = [';',':','/','.','-']
 
 for char in exclude:
-  if char in s:
-    s = s.replace(char,'')
+  if char in original:
+    modified = original.replace(char,'')
+
+# filter punctuation with list comprehensions and ''.join()
+# modified = [char for char in original if char not in exclude]
+# ''.join(i for i in modified)
 
 # ensure Thrift and thrift are treated the same
-s = s.lower()
+modified = modified.lower()
 
 # split words
-words = s.split()
+words = modified.split()
 print words
 
 # eliminate duplicates
@@ -30,4 +34,5 @@ word_set = set(words)
 print word_set
 
 # count unique words
-print len(word_set)
+unique_words = len(word_set)
+print 'There are {} unique words in the sentence "{}"'.format(unique_words,original)
