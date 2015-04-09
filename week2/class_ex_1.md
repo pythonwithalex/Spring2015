@@ -28,6 +28,9 @@ def swap(num_a, num_b):
   # your code goes here
   return a,b
 
+a = 4
+b = 9
+print swap(a,b)
 ````
 
 ## 4: Writing a wrapper function for id()
