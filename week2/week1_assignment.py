@@ -49,3 +49,11 @@ unique_words = len(word_set)
 print 'There are {} unique words in the sentence "{}"'.format(unique_words,original)
 
 # rebuild original sentence from modified one
+modified = list(modified)
+semi_index = original.index(';')
+dot_index = original.index('.')
+modified.insert(semi_index,';')
+modified.insert(dot_index,'.')
+modified = ''.join(i for i in modified)
+modified = modified.capitalize()
+print "Is our modified string equal in value to our original string? {}".format(modified == original)
