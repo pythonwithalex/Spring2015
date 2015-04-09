@@ -20,15 +20,19 @@ print y
 
 ## 3: Swap Values 
 
+The function below takes in two arguments and swaps their values.  However, it is missing the actual code that does the swap.  Write that code, leaving the rest of the function unchanged.
+
 ````python
-## this is how we define a function
-def function_name(arg1,arg2):
-    
+def swap(num_a, num_b):
+
+  # your code goes here
+  return a,b
+
 ````
 
 ## 4: Writing a wrapper function for id()
 
-The id() function tells returns an integer that represents the location (memory address) of an object in python.  Here's an example:
+The id() function returns an integer that represents the location (memory address) of an object in python.  Here's an example:
 
 ````python
 
