@@ -1,4 +1,4 @@
-## 1: Which line in the list 'y' code causes its output to differ from list 'l' ?
+### 1: Which line in the list 'y' code causes its output to differ from list 'l' ?
 
 ````python
 l = [num for num in range(4)]
@@ -16,11 +16,11 @@ y += [6,'7',8,[9,10]]
 print 'list y: ',y
 ````
 
-## 2a: Print all the numbers under 100 that contain a '4' or a '2'.
+### 2a: Print all the numbers under 100 that contain a '4' or a '2'.
 
-## 2b: print the sum of all numbers under 100 that contain a '4' or a '2'.
+### 2b: Print the sum of all numbers under 100 that contain a '4' or a '2'.
 
-## 3: Swap Values 
+###  3: Swap Values 
 
 The function below takes in two arguments and swaps their values.  However, it is missing the actual code that does the swap.  Write that code, leaving the rest of the function unchanged.
 
@@ -35,7 +35,7 @@ b = 9
 print swap(a,b)
 ````
 
-## 4: Writing a wrapper function for id()
+### 4: Writing a wrapper function for id()
 
 The id() function returns an integer that represents the location (memory address) of an object in python.  Here's an example:
 
