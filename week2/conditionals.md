@@ -9,7 +9,7 @@ for item in grocery_list:
 ````
 
 
-prints the following: 
+it would print the following: 
 ````python
 'bread'
 'eggs'
