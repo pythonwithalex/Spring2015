@@ -122,10 +122,12 @@ But back to the burning question ...
 
 ## What does mutability / immutability mean for my code?
 
+It will help you enjoy programming in Python more because you won't have to guess whether a function outputs a separate, indendent object or modifies an existing one. 
+
 Well, there are two types of conventional methods: 
 
-1) the type that gives you back a new, totally independent value      [ all string methods and list methods that read a value ]
-2) the type that modifies 'itself' and doesn't give you back any value       [ list methods that change the list, like sort, reverse, etc]
++ methods that give you back a new, totally independent value ( all string methods, list methods that read a value )
+2) the type that modifies 'itself' and doesn't give you back any value  (list methods that change the list such as .sort()) reverse(), etc]
 
 
 Typically, string methods operate like type #1 because you can't change them, so you get a new, independent value back that you can store under a different or even the very same name
