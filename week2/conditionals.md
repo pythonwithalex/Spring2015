@@ -9,7 +9,7 @@ for item in grocery_list:
 
 Python `for` loops iterate through an object and give you the value at each index.  You can put that value in a list if you want, or call a function with that value as input.  
 
-`Note to folks who program in C, C++, C#, PHP, JavaScript and some others: Python gives you the value, not the index.`
+`Note to folks who program in C, C++, C#, PHP, JavaScript and some others: Python gives you the value of item in the example above, not the index of that value.`
 
 For loops always start with: `for <item copy> in <list object>:`
 
