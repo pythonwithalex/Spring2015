@@ -15,7 +15,7 @@ For loops always start with: `for <item copy> in <list object>:`
 
 The `list object` is a list you created prior to the `for loop`.
 
-`item copy` is created at the time we enter the for loop and you should think of it as the current item in the loop.
+`item copy` is created at the time we enter the for loop and you should think of it as a name bound to the current item in the `list object`.
 
 Here's an example:
 ```python
@@ -31,16 +31,14 @@ print results
 # [5,6,7,8,9,10]
 ````
 
-One important thing to note is that `item copy` is a copy of the item in the `list object`, not the actual item. There is a nice way to modify the actual object, but that is for later. The fact that `item copy` is a copy makes some sense: often you want to gather a subset of values from a larger range.  Create a list, iterate through it with a `for item in yourlist` and use the `if / else` statements (explained below) to conditionally add values to a `results` list.
-
-
+One important thing I should note is that `item copy` is a copy of the item in the `list object`, not the actual item. There is a nice way to modify the actual object, but that is for later. The fact that `item copy` is a copy makes some sense: often you want to gather a subset of values from a larger range.  Create a list, iterate through it with a `for item in yourlist` and use the `if / else` statements (explained below) to conditionally add values to a `results` list.
 
 # The While Loop
-While Loops run until the condition specified right after the 'while' becomes false. If that never happens, it runs forever!
+While Loops run until the condition tested  after the 'while' is false. If the first test is False, it never runs at all. If the condition is never false, it runs forever!
 
+An example of the application of an 'infinite' while loop might be a webserver application:
 
 ````python
-
 # set a start value
 start = 9
 
@@ -54,8 +52,6 @@ while start > 0:
 start = 9
 while val > 0:
   print val
-
-
 ````
 
 # The If / Else
