@@ -1,4 +1,4 @@
-# WHILE
+# The While Loop
 While Loops run until the condition specified right after the 'while' becomes false. If that never happens, it runs forever!
 
 
@@ -14,7 +14,13 @@ while val > 0:
 val = 9
 ````
 
-# IF / ELSE
+# The If / Else
+
+````python
+if <condition>:
+    indented code
+    indented code
+````
 
 In an if/else statement, the condition after the if is tested.  If that condition is True, the if block runs.  if it is False, the else block runs.
 In a simple if/else, there is only one conditional and it comes after the if.  The else code runs only if the if conditional is false.
