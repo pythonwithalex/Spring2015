@@ -35,10 +35,14 @@ while val > 0:
 ````python
 if <condition>:
     indented code
+else:
     indented code
 ````
 
-In an if/else statement, statements are checked in the natural reading order.  Whever there is an `if`, there is a condition being tested.  If that condition is True, the `if` block runs.  If it is False, the `else` block runs.
++ In an if/else statement, statements are checked in the natural reading order.  
++ Whever there is an `if` or `elif`, there is a condition being tested.  
++ If that condition being tested evaluates to True, the block's code runs.  
++ After an `if` statement runs, python looks for more `if`s, and if they exist, it runs them. if they don't, it exits the `if else` block.
 
 You can check for some condition and act accordingly with just a single if:
 
