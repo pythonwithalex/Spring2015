@@ -34,7 +34,7 @@ Note the following:
 + this syntax uniformity is a feature
 + being able to get the last character or last item with [-1] makes our code easier to write and easier for ourselves and others to understand 
 
-What about ***writing*** data to strings and sists?
+What about *writing* data to strings and lists?
 
 Let's try it:
 
