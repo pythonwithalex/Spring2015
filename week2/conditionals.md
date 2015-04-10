@@ -74,8 +74,8 @@ while start > 0:
 # this one never stops
 
 start = 9
-while val > 0:
-  print val
+while start > 0:
+  print start
 ````
 
 
