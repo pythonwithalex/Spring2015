@@ -40,6 +40,8 @@ Let's try it:
 
 ````python
 
+>>> print names
+['jean', 'mike', 'joe']
 >>> names[1] = 'wendy'
 >>> print names
 >>> ['jean', 'wendy', 'joe']
