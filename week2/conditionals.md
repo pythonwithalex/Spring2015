@@ -1,10 +1,14 @@
 # For Loop
 
-Unlike many programming languages, for loops iterate through an object and give you the value itself, not the index.
+Python `for` loops iterate through an object and give you the value at each index.  
+
+`Note to folks who program in C, C++, C#, PHP, JavaScript and some others: Python gives you the value, not the index.`
 
 For loops always start with: `for <item copy> in <list object>:`
 
-`item copy` is a copy of the item in the `list object`, not the actual item.
+the `list object` is a list you created prior to for loop.  `item copy` is created at the time we enter the for loop and you should think of it as the current item in the loop.
+
+`item copy` is a copy of the item in the `list object`, not the actual item. It makes some sense: often you want to gather a subset of values from a larger range.  create a list and append to the list the values 
 
 
 
