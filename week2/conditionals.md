@@ -1,12 +1,12 @@
 # For Loop
 
-for loops have the structure
+Unlike many programming languages, for loops iterate through an object and give you the value itself, not the index.
 
-````python
-for <item copy> in <list object>:
-  <line of code>
-  <line of code>
-````
+For loops always start with: `for <item copy> in <list object>:`
+
+`item copy` is a copy of the item in the `list object`, not the actual item.
+
+
 
 # The While Loop
 While Loops run until the condition specified right after the 'while' becomes false. If that never happens, it runs forever!
