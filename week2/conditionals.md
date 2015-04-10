@@ -123,7 +123,8 @@ if it_is_sunny:
   load(sunglasses,hat)
 ````
 
-You can use `elif` if you have code you want to run if True and then exits. 
+You can use `elif` if you have code you want to run when a condition is true, but exit after the code runs.
+
 
 ````python
 
