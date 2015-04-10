@@ -13,6 +13,7 @@ Here's an example (I'll use 'e' and 'names' for all the examples here):
 >>> names = ['jean', 'mike', 'joe']
 >>> print names[1]
 >>> 'mike'
+````
 
 We can also read subsections from each with the same syntax:
 
@@ -21,6 +22,7 @@ We can also read subsections from each with the same syntax:
 >>> 'el'
 >>> names[:2]
 >>> ['jean' , 'mike']
+````
 
 Note the following:
 
@@ -38,6 +40,7 @@ Let's try it:
 >>> names[1] = 'wendy'
 >>> print names
 >>> ['jean', 'wendy', 'joe']
+````
 
 That was successful.  'Mike' became 'Wendy'.
 
@@ -47,6 +50,7 @@ Now I'll try with the string 'elephant'
 
 >>> e[0] = 'a'
 TypeError: 'str' object does not support item assignment
+````
 
 In English, the error message is telling us:
 
@@ -88,6 +92,7 @@ An example with the string.upper() method:
 >>> 'ELEPHANT'
 >>> e.upper
 >>> <function upper>
+````
 
 In the last two lines, we see what happens when we try to call a function 'incorrectly', meaning that we forgot the parentheses.  A this point, if you see this in the output of your code, you most likely forgot the parentheses.
 
@@ -140,17 +145,21 @@ Here, I overwrote the original e with the value of e.upper().  Then I merely pri
 List methods generally modify the list if they are 'write' operations, such as names.sort(), names.insert() or names.reverse()
 They don't modify the list if they are 'read' operations, such as names.index('wendy'). 
 
+````python
 >>> print names
 >>> names is ['jean', 'wendy', 'joe']
 >>> names.sort()
 >>>
+````
 
 notice names.sort() didn't output any value
+
 ````python
 >>> print names
 >>> ['jean', 'joe', 'wendy']
 ````
 but names.sort() did in fact sort the list
+
 ````python
 >>> sorted_names = names.sort()
 >>> print sorted_names
