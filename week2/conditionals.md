@@ -4,7 +4,8 @@ for loops have the structure
 
 ````python
 for <item copy> in <list object>:
-  # code 
+  <line of code>
+  <line of code>
 ````
 
 # The While Loop
