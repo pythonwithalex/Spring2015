@@ -58,24 +58,6 @@ if it_is_raining:
 ````
 
 
-You can use `elif` to check for alternate conditions but then exit the if / else block when the `elif` condition is True. 
-
-````python
-
-it_is_sunny = False
-it_is_raining = True
-
-if it_is_raining:
-  load(umbrella,boots)
-  
-elif it_is_sunny:
-  load(sunglasses,hat)
-
-else:
-  sys.exit(1)
-````
-
-
 If you want to check for a bunch of things and in each case do something, you can use multiple ifs:
 
 ````python
@@ -90,23 +72,20 @@ elif it_is_sunny:
   load(sunglasses,hat)
 ````
 
-With that in mind, look at the following code.  The 'elif' only runs if the 'if' condition is false.
+You can use `elif` if you have code you want to run if True and then exits. 
 
 ````python
-# IF / ELSE  
 
+it_is_sunny = False
 it_is_raining = True
 
 if it_is_raining:
-  print 'why, Boston, why?'
+  load(umbrella,boots)
+  
+elif it_is_sunny:         <- if it's sunny, load sunglasses and hat and then exit the block
+  load(sunglasses,hat)
 
 else:
-  print 'oh...great!'
-````
-
-````python
-# FOR LOOP
-for num in range(val):
-  print num
+  print 'what is like outside?'
 ````
 
