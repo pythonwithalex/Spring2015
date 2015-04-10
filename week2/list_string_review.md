@@ -52,7 +52,6 @@ That was successful.  'Mike' became 'Wendy'.
 Now I'll try with the string 'elephant'
 
 ````python
-
 >>> e[0] = 'a'
 TypeError: 'str' object does not support item assignment
 ````
@@ -82,7 +81,7 @@ lang = 'python2.7'
 
 ## Why does all of this matter? 
 
-String and list methods will be confusing without some familiarity with the idea of mutability and immutability.
+String and list methods will be confusing without some familiarity with the idea of mutability and immutability and which data types are 'read-only'.
 
 
 ## What is a method?
