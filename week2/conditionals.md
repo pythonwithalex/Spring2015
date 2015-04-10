@@ -6,7 +6,7 @@ Python `for` loops iterate through an object and give you the value at each inde
 
 For loops always start with: `for <item copy> in <list object>:`
 
-the `list object` is a list you created prior to for loop.  `item copy` is created at the time we enter the for loop and you should think of it as the current item in the loop.
+the `list object` is a list you created prior to the `for loop`.  `item copy` is created at the time we enter the for loop and you should think of it as the current item in the loop.
 
 `item copy` is a copy of the item in the `list object`, not the actual item. It makes some sense: often you want to gather a subset of values from a larger range.  create a list and append to the list the values 
 
