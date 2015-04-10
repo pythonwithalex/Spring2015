@@ -18,7 +18,7 @@ Here's an example (I'll use 'e' and 'names' for all the examples here):
 We can also read subsections from each with the same syntax:
 
 ````python
->>> e[ : 2]
+>>> e[:2]
 >>> 'el'
 >>> names[:2]
 >>> ['jean' , 'mike']
