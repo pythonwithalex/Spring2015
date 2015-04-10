@@ -3,8 +3,14 @@
 This is what a `for` loop looks like:
 
 ```python
-for item in grocery_list:
-  purchase(item)
+> grocery_list = ['bread','eggs','cheese','corn','cereal']
+> for item in grocery_list:
+    purchase(item)
+'bread'
+'eggs'
+'cheese'
+'corn'
+'cereal'
 ````
 
 Python `for` loops iterate through an object and give you the value at each index.  You can put that value in a list if you want, or call a function with that value as input.  
