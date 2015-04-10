@@ -6,7 +6,11 @@ This is what a `for` loop looks like:
 grocery_list = ['bread','eggs','cheese','corn','cereal']
 for item in grocery_list:
   purchase(item)
-#prints the following: 
+````
+
+
+prints the following: 
+````python
 'bread'
 'eggs'
 'cheese'
