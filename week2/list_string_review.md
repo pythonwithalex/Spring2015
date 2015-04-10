@@ -102,7 +102,7 @@ An example with the string.upper() method:
 
 In the last two lines, we see what happens when we try to call a function 'incorrectly', meaning that we forgot the parentheses.  A this point, if you see this in the output of your code, you most likely forgot the parentheses.
 
-So, to recap: if you see '()', that's a function call.  if the function has a dot preceding it, it's a method.  Otherwise, it's a regular function.
+So, to recap: if you see '( )', that's a function call.  if the function has a dot preceding it, it's a method.  Otherwise, it's a regular function.
 
 
 sum is a regular function
