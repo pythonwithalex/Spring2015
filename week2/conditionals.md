@@ -8,7 +8,21 @@ For loops always start with: `for <item copy> in <list object>:`
 
 the `list object` is a list you created prior to the `for loop`.  `item copy` is created at the time we enter the for loop and you should think of it as the current item in the loop.
 
-`item copy` is a copy of the item in the `list object`, not the actual item. It makes some sense: often you want to gather a subset of values from a larger range.  create a list and append to the list the values 
+Here's an example:
+```python
+
+results = []
+values = [1,2,3,4,5,6,7,8,9,10]
+
+for value in values:
+  if value > 4:
+  results.append(value)
+
+print results
+# [5,6,7,8,9,10]
+````
+
+One important thing to note is that `item copy` is a copy of the item in the `list object`, not the actual item. There is a nice way to modify the actual object, but that is for later. The fact that `item copy` is a copy makes some sense: often you want to gather a subset of values from a larger range.  Create a list, iterate through it with a `for item in yourlist` and use the `if / else` statements (explained below) to conditionally add values to a `results` list.
 
 
 
