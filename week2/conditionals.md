@@ -89,11 +89,12 @@ else:
     indented code
 ````
 
-+ In an if/else statement, statements are checked in the natural reading order.  
++ In an if/else statement, statements are checked in the same way you would read them, top to bottom 
 + Whever there is an `if` or `elif`, there is a condition being tested.  
 + If that condition being tested evaluates to True, the block's code runs.  
-+ After an `if` statement runs, python looks for more `if`s, and if they exist, it runs them. if they don't, it exits the `if else` block.
-+ `if`s are not mutually exclusive, meaning you can run multiple `ifs`
++ After an `if` statement runs, python looks for more `if`s, and if they exist, it runs them. if they don't, it exits the block.
++ `ifs` are mutually exclusive from `elifs` and `elses`, they never both run
++ `if`s are not mutually exclusive with themselves, meaning you can run multiple `ifs`
 + `elif` and `else` are mutually exclusive. After one of these runs, we exit the `if else` block.
 
 You can check for some condition and act accordingly with just a single if:
