@@ -41,6 +41,40 @@ if it_is_raining:
   
 ````
 
+You can have multiple `if`s:
+
+````python
+
+it_is_sunny = False
+it_is_raining = True
+
+if it_is_raining:
+  load([umbrella,boots])
+  
+if it_is_sunny:
+  load([sunglasses,hat])
+
+else:
+  load()
+````
+
+... and there is an `elif` , which is short for `else if`
+
+````python
+
+it_is_sunny = False
+it_is_raining = True
+
+if it_is_raining:
+  load([umbrella,boots])
+  
+elif it_is_sunny:
+  load([sunglasses,hat])
+
+else:
+  sys.exit(1)
+````
+
 Note that in an if/else, one and only one block code ALWAYS executes. That's because it is either raining or it isn't raining.  That is the nature of logic. It can't be both raining and not raining.
 
 Think of an if else as a cascade of separate 'Is this true?' questions that stops once one of them is true.  If one doesn't run, the next one is checked. If it gets to the 'else', it will just run.
