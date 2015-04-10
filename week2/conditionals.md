@@ -119,7 +119,7 @@ if it_is_raining:
 if it_is_cloudy:
   load(backpack,walking_stick)
   
-elif it_is_sunny:
+if it_is_sunny:
   load(sunglasses,hat)
 ````
 
