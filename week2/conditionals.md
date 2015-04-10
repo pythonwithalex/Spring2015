@@ -29,8 +29,17 @@ if <condition>:
     indented code
 ````
 
-In an if/else statement, the condition after the if is tested.  If that condition is True, the if block runs.  if it is False, the else block runs.
-In a simple if/else, there is only one conditional and it comes after the if.  The else code runs only if the if conditional is false.
+In an if/else statement, statements are checked in the natural reading order.  Whever there is an `if`, there is a condition being tested.  If that condition is True, the `if` block runs.  If it is False, the `else` block runs.
+
+You can have an if with no else:
+
+````python
+it_is_raining = True
+
+if it_is_raining:
+  load(umbrella)
+  
+````
 
 Note that in an if/else, one and only one block code ALWAYS executes. That's because it is either raining or it isn't raining.  That is the nature of logic. It can't be both raining and not raining.
 
