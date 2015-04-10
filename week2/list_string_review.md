@@ -80,12 +80,12 @@ lang = 'python'
 lang = 'python2.7'
 ````
 
-Why does all of this matter? 
+## Why does all of this matter? 
 
 String and list methods will be confusing without some familiarity with the idea of mutability and immutability.
 
 
-What is a method?
+## What is a method?
 
 A method is a function that is a part of an object such as a list or a string.  You'll know when a method is used because you always see a dot followed by a function call.
 
