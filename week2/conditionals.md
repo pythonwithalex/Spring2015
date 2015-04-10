@@ -34,9 +34,19 @@ print results
 One important thing I should note is that `item copy` is a copy of the item in the `list object`, not the actual item. There is a nice way to modify the actual object, but that is for later. The fact that `item copy` is a copy makes some sense: often you want to gather a subset of values from a larger range.  Create a list, iterate through it with a `for item in yourlist` and use the `if / else` statements (explained below) to conditionally add values to a `results` list.
 
 # The While Loop
+
 While Loops run until the condition tested  after the 'while' is false. If the first test is False, it never runs at all. If the condition is never false, it runs forever!
 
-An example of the application of an 'infinite' while loop might be a webserver application:
+An example of the application of an 'infinite' while loop might be a webserver application (the one below is conceptual):
+
+````python
+def serve_the_web():
+  while True:
+    request = getHTTP_Request():
+    sendHTTP_Response(response)
+```
+
+Another would be a counter:
 
 ````python
 # set a start value
