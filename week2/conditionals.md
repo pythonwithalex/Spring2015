@@ -1,5 +1,12 @@
 # For Loop
 
+This is what a `for` loop looks like:
+
+```python
+for item in grocery_list:
+  purchase(item)
+````
+
 Python `for` loops iterate through an object and give you the value at each index.  
 
 `Note to folks who program in C, C++, C#, PHP, JavaScript and some others: Python gives you the value, not the index.`
