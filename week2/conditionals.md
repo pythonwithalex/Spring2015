@@ -13,7 +13,9 @@ Python `for` loops iterate through an object and give you the value at each inde
 
 For loops always start with: `for <item copy> in <list object>:`
 
-the `list object` is a list you created prior to the `for loop`.  `item copy` is created at the time we enter the for loop and you should think of it as the current item in the loop.
+The `list object` is a list you created prior to the `for loop`.
+
+`item copy` is created at the time we enter the for loop and you should think of it as the current item in the loop.
 
 Here's an example:
 ```python
