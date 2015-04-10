@@ -42,8 +42,11 @@ An example of the application of an 'infinite' while loop might be a webserver a
 ````python
 def serve_the_web():
   while True:
-    request = getHTTP_Request():
+  
+    request = getHTTP_Request()
     sendHTTP_Response(response)
+    if critical_error:
+      break
 ```
 
 Another would be a counter:
@@ -63,6 +66,8 @@ start = 9
 while val > 0:
   print val
 ````
+
+
 
 # The If / Else
 
