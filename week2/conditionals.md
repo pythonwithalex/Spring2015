@@ -1,4 +1,4 @@
-# For Loop
+# For Loops
 
 This is what a `for` loop looks like:
 
@@ -44,7 +44,7 @@ print results
 
 One important thing I should note is that `item copy` is a copy of the item in the `list object`, not the actual item. There is a nice way to modify the actual object, but that is for later. The fact that `item copy` is a copy makes some sense: often you want to gather a subset of values from a larger range.  Create a list, iterate through it with a `for item in yourlist` and use the `if / else` statements (explained below) to conditionally add values to a `results` list.
 
-# The While Loop
+# While Loops
 
 While Loops run until the condition tested  after the 'while' is false. If the first test is False, it never runs at all. If the condition is never false, it runs forever!
 
@@ -80,7 +80,7 @@ while start > 0:
 
 
 
-# The If / Else
+# If, elif and else statements
 
 ````python
 if <condition>:
