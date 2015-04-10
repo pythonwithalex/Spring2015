@@ -118,7 +118,9 @@ e.upper() is a method
 >>> e.upper()
 >>> 'ELEPHANT'
 ````
-But back to the burning question:  What does mutability / immutability mean for my code?
+But back to the burning question ...
+
+## What does mutability / immutability mean for my code?
 
 Well, there are two types of conventional methods: 
 
