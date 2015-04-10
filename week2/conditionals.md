@@ -1,3 +1,12 @@
+# For Loop
+
+for loops have the structure
+
+````python
+for <item copy> in <list object>:
+  # code 
+````
+
 # The While Loop
 While Loops run until the condition specified right after the 'while' becomes false. If that never happens, it runs forever!
 
@@ -31,17 +40,19 @@ if <condition>:
 
 In an if/else statement, statements are checked in the natural reading order.  Whever there is an `if`, there is a condition being tested.  If that condition is True, the `if` block runs.  If it is False, the `else` block runs.
 
-You can have an if with no else:
+You can check for some condition and act accordingly with just a single if:
+
 
 ````python
 it_is_raining = True
 
 if it_is_raining:
-  load(umbrella)
+  load(umbrella, boots)
   
 ````
 
-You can have multiple `if`s:
+
+You can use `elif` to check for alternate conditions but then exit the if / else block when the `elif` condition is True. 
 
 ````python
 
@@ -49,35 +60,29 @@ it_is_sunny = False
 it_is_raining = True
 
 if it_is_raining:
-  load([umbrella,boots])
-  
-if it_is_sunny:
-  load([sunglasses,hat])
-
-else:
-  load()
-````
-
-... and there is an `elif` , which is short for `else if`
-
-````python
-
-it_is_sunny = False
-it_is_raining = True
-
-if it_is_raining:
-  load([umbrella,boots])
+  load(umbrella,boots)
   
 elif it_is_sunny:
-  load([sunglasses,hat])
+  load(sunglasses,hat)
 
 else:
   sys.exit(1)
 ````
 
-Note that in an if/else, one and only one block code ALWAYS executes. That's because it is either raining or it isn't raining.  That is the nature of logic. It can't be both raining and not raining.
 
-Think of an if else as a cascade of separate 'Is this true?' questions that stops once one of them is true.  If one doesn't run, the next one is checked. If it gets to the 'else', it will just run.
+If you want to check for a bunch of things and in each case do something, you can use multiple ifs:
+
+````python
+
+if it_is_raining:
+  load(boots,umbrella)
+
+if it_is_cloudy:
+  load(backpack,walking_stick)
+  
+elif it_is_sunny:
+  load(sunglasses,hat)
+````
 
 With that in mind, look at the following code.  The 'elif' only runs if the 'if' condition is false.
 
@@ -98,3 +103,4 @@ else:
 for num in range(val):
   print num
 ````
+
