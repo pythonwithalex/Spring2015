@@ -3,12 +3,15 @@ While Loops run until the condition specified right after the 'while' becomes fa
 
 
 ````python
-# WHILE
 val = 9
 
 while val > 0:
   print val
   val = val -1
+
+# this one never stops
+
+val = 9
 ````
 
 # IF / ELSE
