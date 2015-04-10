@@ -10,6 +10,7 @@ Here's an example (I'll use 'e' and 'names' for all the examples here):
 >>> e = 'elephant'
 >>> e[0] is 'e'
 
+
 >>> names = ['jean', 'mike', 'joe']
 >>> print names[1]
 >>> 'mike'
@@ -18,8 +19,12 @@ Here's an example (I'll use 'e' and 'names' for all the examples here):
 We can also read subsections from each with the same syntax:
 
 ````python
+>>> print e
+'elephant'
 >>> e[:2]
 >>> 'el'
+>>> print names
+['jean', 'mike', 'joe']
 >>> names[:2]
 >>> ['jean' , 'mike']
 ````
