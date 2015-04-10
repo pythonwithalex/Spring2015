@@ -71,7 +71,7 @@ mutable
 + when we append a new name to names, id(names) will still return the same large integer
 
 immutable
-+ once the object is created, any changes to it are all-or-nothing (and they're not strictly changes *to* the object because the only sort of change you can make is by creating a completely new, independent string).  
++ once the object is created, any changes to it are all-or-nothing (and they're not strictly changes *to* the object because the only sort of change you can make is the creation of a new object under the same name, but it will be a separate, independent string).  
 + Thus, you can't assign new values to subsections of it with e[0] = 'x'
 + if you want to change what your name refers to, you have to reassign a value to the object's name
 lang = 'python'
