@@ -43,6 +43,8 @@ else:
 + Whever there is an `if` or `elif`, there is a condition being tested.  
 + If that condition being tested evaluates to True, the block's code runs.  
 + After an `if` statement runs, python looks for more `if`s, and if they exist, it runs them. if they don't, it exits the `if else` block.
++ `if`s are not mutually exclusive, meaning you can run multiple `ifs`
++ `elif` and `else` are mutually exclusive. After one of these runs, we exit the `if else` block.
 
 You can check for some condition and act accordingly with just a single if:
 
