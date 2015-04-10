@@ -3,9 +3,10 @@
 This is what a `for` loop looks like:
 
 ```python
-> grocery_list = ['bread','eggs','cheese','corn','cereal']
-> for item in grocery_list:
-    purchase(item)
+grocery_list = ['bread','eggs','cheese','corn','cereal']
+for item in grocery_list:
+  purchase(item)
+#prints the following: 
 'bread'
 'eggs'
 'cheese'
