@@ -74,6 +74,7 @@ There are two computer science terms that you should be familiar with that descr
 + every distinct object in python has a unique identifier, which you can find with the built-in function id()
 + id(names) will give you a large integer that corresponds to the location of the object
 + when we append a new name to names, id(names) will still return the same large integer
+
 #### immutability
 
 + once the object is created, any changes to it are all-or-nothing (and they're not strictly changes *to* the object because the only sort of change you can make is the creation of a new object under the same name, but it will be a separate, independent string).  
