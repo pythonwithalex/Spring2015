@@ -4,14 +4,14 @@
 
 Your assignment is to write code that opens a CSV file on your computer, reads it in, processes it, and prints it out in a way that's nice to read.
 
-The structure of the file:
+The structure of our data is like a spread sheet.  here are the file column names: 
 
 firstName, lastName, age, profession
 
-Some sample data:
+and here is some sample data:
 
 + 'Michael', 'Jordan', 52, Basketball Player
-+ 'Kirsten','Bell',39, Actress
++ 'Kirsten','Bell', 39, Actress
 + 'Morrissey', None, 60, Musician
 
 #### How to Open a File and Read Data
