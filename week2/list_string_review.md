@@ -59,7 +59,7 @@ TypeError: 'str' object does not support item assignment
 
 In English, the error message is telling us:
 
-+ that strings do not provide you with the ability to assign data to their individual parts. In fact, there is no such thing as a 'character'.  Even just an 'a' is a string, not a character.
++ strings don't provide a way to assign data to their individual parts. 
 + strings are 'read only'. 
 
 There are two computer science terms that you should be familiar with that describe whether a data type is read-only or not:
