@@ -218,7 +218,7 @@ for index, word in enumerate(words):
 ````
 
 
-Copying Lists
+#### Copying Lists
 
 What do you expect a, b and c to be after the lines below?
 
@@ -248,8 +248,42 @@ the annotated version of the code above:
 
 a = [1,2,3]
 b = [4,5,6]
-c = a       # c is just an alias for a. c[0] is really just a[0]
+c = a       # c is an alias for a, so c[0] is really a[0]
 a[0] = 3    # a is [3,2,3]
 c[0] = 1    # a is back to the old [1,2,3]
+
+````
+
+When you assign a list object to a name with `c = a`, a new object c is **not** created.  Instead, the new name c becomes another way to refer to the value to which a refers.
+
+a -> list_obj
+c -> list_obj
+
+If you want to copy a list's values into another list so that you can edit one and the other will not be affected, use this method:
+
+````python
+
+a = [1,2,3]
+b = [4,5,6]
+c = a[:]
+a[0] = 100
+print a, '\n', c
+````
+
+This is a convenient syntax to copy all of the items in a list. No for loop needed.
+
+#### EXTRA INFO:
+
+if you know the number of items in a list, you can name each assign a name to each item by separating the names by commas:
+
+````python
+a=[1,2,3]
+one, two, three = a[:]
+print a
+print one,two,three
+````
+
+````
+
 
 ````
