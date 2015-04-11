@@ -8,7 +8,7 @@ Here's an example (I'll use 'e' and 'names' for all the examples here):
 
 ````python
 >>> e = 'elephant'
->>> e[0]
+>>> print e[0]
 >>> 'e'
 >>> names = ['jean', 'mike', 'joe']
 >>> print names[1]
