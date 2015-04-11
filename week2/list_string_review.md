@@ -1,5 +1,4 @@
 ## Week 2 Recap
-Make sure to do the exercises :]
 
 #### Accessing Values in Strings and Lists
 
