@@ -4,7 +4,16 @@
 
 ## 2) CSV Format
 
-Your assignment is to write code that opens a CSV file on your computer, reads it in, processes it, and prints it out in a way that's nice to read. Assume that no record (aka, row) never exceeds four columns.  
+CSV is a file structure where the a record consists of values separated by commas.  Each new line is a new record.  The first line is the Column headers.
+```csv
+category1,category2
+8.4, 9.0
+2.3, 3.4
+90,12
+45,
+````
+
+Your assignment is to write code that opens a CSV file on your computer, reads it in, processes it, and prints it out in a way that's nice to read. Assume that no record (aka, row) ever exceeds four columns, but that it can have missing fields.
 
 + You should try to justify the text consistently like the sample output below
 + Also, try to be as fault-tolerant as possible.  If a field is missing, do you handle that? What if age data ends up in the profession column?
