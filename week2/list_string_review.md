@@ -200,12 +200,12 @@ You can do useful things like checking a paragraph for properly capitalized sent
 ````python
 
 #open the file, 'r' for read-only
-content = open('paragraph.txt','r')
+paragraph = open('paragraph.txt','r')
 
-# read the file
-content.read()
+# read the file into a string
+content = paragraph.read()
 
-# words 
+# split string into words 
 words = content.split()
 
 # for each word, if prior word has a '.' at the end, 
@@ -216,4 +216,4 @@ for index, word in enumerate(words):
 
 ````
 
-Why did we turn a string into a list yesterday at the end of the exercise?
+
