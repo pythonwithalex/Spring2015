@@ -10,9 +10,9 @@ firstName, lastName, age, profession
 
 Some sample data:
 
-'Michael', 'Jordan', 52, Basketball Player
-'Kirsten','Bell',39, Actress
-'Morrissey', None, 60, Musician
++ 'Michael', 'Jordan', 52, Basketball Player
++ 'Kirsten','Bell',39, Actress
++ 'Morrissey', None, 60, Musician
 
 #### How to Open a File and Read Data
 
