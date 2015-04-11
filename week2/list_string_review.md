@@ -2,7 +2,12 @@
 
 #### Accessing Values in Strings and Lists
 
-Python strings and lists are called **iterables**.  This means they support a uniform method of access, meaning that we can access their constituent parts  using the bracket [] syntax and a numerical position inside it. 
+##### Iterables
+
+Any data type that you can validly use in a `for` loop in Python is called an **iterable**.  An iterable simply means you can access the values in it on at a time.
+
+##### Uniform method of Access
+This means they support a uniform method of access, meaning that we can access their constituent parts  using the bracket [] syntax and a numerical position inside it. 
 
 Here's an example (I'll use 'e' and 'names' for all the examples here):
 
