@@ -22,7 +22,7 @@ You can open a text file and store the contents as a string like this:
 
 f = open('textfile.txt','r') # file should exist in same dir where you're calling your script
 content = f.read()
-print type(lines)
+print type(content)
 # prints str
 ````
 
