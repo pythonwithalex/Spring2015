@@ -209,7 +209,7 @@ content.read()
 words = content.split()
 
 # for each word, if prior word has a '.' at the end, 
-#capitalize this one and assign that value to this word
+# capitalize this word and assign it to this index in the original words array
 for index, word in enumerate(words):
   if (index - 1) and words[index - 1].endswith('.'):
     words[index] = words[index].capitalize() 
