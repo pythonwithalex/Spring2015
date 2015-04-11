@@ -39,6 +39,7 @@ You can open a text file and store the contents as a string like this:
 
 f = open('textfile.txt','r') # file should exist in same dir where you're calling your script
 content = f.read()
+f.close()
 print type(content)
 # prints str
 ````
@@ -49,10 +50,8 @@ You can open a file and store it as a list of lines this way:
 
 f = open('textfile.txt','r')
 lines = f.readlines()
+f.close()
 print type(lines)
 # prints list
 ````
 
-
-
-## 
