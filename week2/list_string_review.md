@@ -71,14 +71,14 @@ There are two computer science terms that you should be familiar with that descr
 #### mutability
 
 + a mutable object can grow, shrink or change and it's still considered the 'same' object
-+ every distinct object in python has a unique identifier, which you can find with the built-in function id()
-+ id(names) will give you a large integer that corresponds to the location of the object
-+ when we append a new name to names, id(names) will still return the same large integer
++ every distinct object in python has a unique identifier, which you can find with the built-in function `id()`
++ `id(names)` will give you a large integer that corresponds to the location of the object
++ when we append a new name to `names`, `id(names)` will still return the same large integer
 
 #### immutability
 
 + once the object is created, any changes to it are all-or-nothing (and they're not strictly changes *to* the object because the only sort of change you can make is the creation of a new object under the same name, but it will be a separate, independent string).  
-+ Thus, you can't assign new values to subsections of it with e[0] = 'x'
++ Thus, you can't assign new values to subsections of it with `e[0] = 'x'`
 + if you want to change what your name refers to, you have to reassign a value to the object's name
 
 ````python
@@ -88,8 +88,7 @@ lang = 'python2.7'
 
 ## Why does all of this matter? 
 
-String and list methods are the fun part of python.  But they will be frustrating for you if you don't have some familiarity with the idea of mutability and immutability and the knowledge of which Python data types fall under these two categories.
-
+String and list methods are productive features of the python language.  But they will be frustrating for you if you don't have some familiarity with the idea of mutability and immutability and the knowledge of which Python data types fall under these two categories.
 
 ## What is a method?
 
