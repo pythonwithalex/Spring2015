@@ -4,9 +4,14 @@
 
 ## 2) CSV Format
 
-Your assignment is to write code that opens a CSV file on your computer, reads it in, processes it, and prints it out in a way that's nice to read. You should try to justify the text consistently like the following output:
+Your assignment is to write code that opens a CSV file on your computer, reads it in, processes it, and prints it out in a way that's nice to read. Assume that no record (aka, row) never exceeds four columns.  
+
++ You should try to justify the text consistently like the sample output below
++ Also, try to be as fault-tolerant as possible.  If a field is missing, do you handle that? What if it's not the type of data you expect?
 
 ````python
+
+sample printcsv.py output
 
 firstName  |  lastName  |  age  |  profession
 
