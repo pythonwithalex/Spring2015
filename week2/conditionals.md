@@ -22,11 +22,11 @@ Python `for` loops iterate through an object and give you the value at each inde
 
 `Note to folks who program in C, C++, C#, PHP, JavaScript and some others: Python gives you the value of item in the example above, not the index of that value.`
 
-For loops always start with: `for <item copy> in <list object>:`
+For loops always start with: `for <item> in <list object>:`
 
 The `list object` is a list you created prior to the `for loop`.
 
-`item copy` is created at the time we enter the for loop and you should think of it as a name bound to the current item in the `list object`.
+`item` is a reference to the item in the list you are iterating through. 
 
 Here's an example:
 ```python
