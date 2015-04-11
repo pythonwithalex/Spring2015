@@ -220,20 +220,18 @@ for index, word in enumerate(words):
 
 Copying Lists
 
-consider the following code:
+What do you expect a, b and c to be after the lines below?
 
 ````python
 
 a = [1,2,3]
 b = [4,5,6]
 c = a
-print c
 a[0] = 3
 c[0] = 1
 
 ````
-
-What do you expect a, b and c to be after the lines above?
+a,b,c look like this
 
 ````python
 
@@ -241,5 +239,17 @@ print a,'\n', b, '\n', c
 [1,2,3]
 [4,5,6]
 [1,2,3]
+
+````
+
+the annotated version of the code above:
+
+````python
+
+a = [1,2,3]
+b = [4,5,6]
+c = a       # c is just an alias for a. c[0] is really just a[0]
+a[0] = 3    # a is [3,2,3]
+c[0] = 1    # a is back to the old [1,2,3]
 
 ````
