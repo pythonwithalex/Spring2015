@@ -1,6 +1,20 @@
 ## Fizz Buzz
 
-## Reading a File
+## CSV Format
+
+Your assignment is to write code that opens a CSV file on your computer, reads it in, processes it, and prints it out in a way that's nice to read.
+
+The structure of the file:
+
+firstName, lastName, age, profession
+
+Some sample data:
+
+'Michael', 'Jordan', 52, Basketball Player
+'Kirsten','Bell',39, Actress
+'Morrissey', None, 60, Musician
+
+#### How to Open a File and Read Data
 
 You can open a text file and store the contents as a string like this:
 
@@ -11,6 +25,7 @@ content = f.read()
 print type(lines)
 # prints str
 ````
+
 You can open a file and store it as a list of lines this way:
 
 ````python
@@ -20,5 +35,7 @@ lines = f.readlines()
 print type(lines)
 # prints list
 ````
+
+
 
 ## 
