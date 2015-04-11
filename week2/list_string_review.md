@@ -9,10 +9,10 @@ Here's an example (I'll use 'e' and 'names' for all the examples here):
 ````python
 >>> e = 'elephant'
 >>> print e[0]
->>> 'e'
+'e'
 >>> names = ['jean', 'mike', 'joe']
 >>> print names[1]
->>> 'mike'
+'mike'
 ````
 
 We can also read subsections from each with the same syntax:
