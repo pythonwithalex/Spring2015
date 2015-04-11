@@ -123,7 +123,7 @@ But back to the burning question ...
 
 ## What does mutability / immutability mean for my code?
 
-It will help you enjoy programming in Python more because you won't have to guess whether a function outputs a separate, indendent object or modifies an existing one. 
+If you understand the distinction, you will have less to debug and thus more fun per line of code.
 
 We can break all methods down into roughly two types: 
 
