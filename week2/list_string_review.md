@@ -2,7 +2,7 @@
 
 #### Accessing Values in Strings and Lists
 
-Both strings and lists are indexible in the same way, meaning that we can access their constituent parts  using the bracket [] syntax and a numerical position inside it. 
+Python strings and lists are called **iterables**.  This means they support a uniform method of access, meaning that we can access their constituent parts  using the bracket [] syntax and a numerical position inside it. 
 
 Here's an example (I'll use 'e' and 'names' for all the examples here):
 
