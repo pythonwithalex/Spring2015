@@ -176,11 +176,12 @@ but names.sort() did in fact sort the list
 >>> print sorted_names
 >>> None
 ````
-Why did the last three lines result in the output 'None' ?
+Why did the sorted_names have the value 'None' ?
 
 + Remember, the .sort() method doesn't output any data, it changes the values of the object on which it was called, names
 + a method, like any function,  isn't required to explicitly pass a value back to the program.
 + But it always passes something back, and if nothing is explicitly passed back, it defaults to passing None back.
++ so we assigned the default value None to the name `sorted_names`
 
 to summarize: names.sort() is a function that actually writes new values to names.  
 names.index() just reads information from names, so nothing actually changes.
