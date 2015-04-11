@@ -183,13 +183,17 @@ Why did the sorted_names have the value 'None' ?
 + But it always passes something back, and if nothing is explicitly passed back, it defaults to passing None back.
 + so we assigned the default value None to the name `sorted_names`
 
-to summarize: names.sort() is a function that actually writes new values to names.  
-names.index() just reads information from names, so nothing actually changes.
+to summarize: 
++ `names.sort()` is a function that actually writes new values to `names`.  
++ `names.index()` just reads information from `names`, so nothing actually changes.
 
-Using the string .split() method
+## Using the string `.split()` method
 
-We can turn 'jean wendy joe' into ['jean', 'wendy', 'joe'] by running this code
+We can turn `'jean wendy joe'` into `['jean', 'wendy', 'joe']` by running this code:
+
+````python
 people = 'jean wendy joe'.split()
+````
 
 You can do useful things like checking a paragraph for properly capitalized sentences.
 
@@ -203,10 +207,13 @@ content.read()
 
 # words 
 words = content.split()
+
+# for each word, if prior word has a '.' at the end, 
+#capitalize this one and assign that value to this word
 for index, word in enumerate(words):
   if (index - 1) and words[index - 1].endswith('.'):
     words[index] = words[index].capitalize() 
-  
+
 ````
 
 Why did we turn a string into a list yesterday at the end of the exercise?
