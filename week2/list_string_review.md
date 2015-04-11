@@ -82,7 +82,7 @@ lang = 'python2.7'
 
 ## Why does all of this matter? 
 
-String and list methods will be confusing without some familiarity with the idea of mutability and immutability and which data types are 'read-only'.
+String and list methods will be confusing without some familiarity with the idea of mutability and immutability and the knowledge of which Python data types fall under these two categories.
 
 
 ## What is a method?
