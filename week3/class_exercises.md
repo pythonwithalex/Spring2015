@@ -28,15 +28,17 @@ for n in range(5):
 
 ````python 
 # a for loop
-
+iterable = ['abc','def','hij']
 container = []
-for item in iterable:
-    container.append(item)
-    
-# a list comprehension
 
-| result | |   for loop body   |
-[item      for item in iterable]
+for item in iterable:
+    if len(item):
+        container.append(item)
+    
+# an equivalent list comprehension
+
+iterable = ['abc','def','hij']
+container = [item for item in iterable if len(item)]
 
 
 
