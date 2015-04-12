@@ -44,13 +44,10 @@ container = [item for item in iterable if len(item)]
 
 ````
 
-````python
-
-squares = [num**2 for num in range(10)]
-print squares
-````
+#### Another For Loop and an Equivalent List Comprehension
 
 ````python
+# for loop
 
 squares = []
 for num in range(10):
@@ -58,3 +55,11 @@ for num in range(10):
 
 print squares
 ````
+
+````python
+# list comprehension
+squares = [num**2 for num in range(10)]
+print squares
+````
+
+
