@@ -39,12 +39,12 @@ Note that the reading posted for each week in the syllabus is intended to be don
 | reading     | [Python Tutorial on Lists](https://docs.python.org/2/tutorial/datastructures.html) |
 | assignment    | [List exercises](https://github.com/pythonwithalex/Spring2015/blob/master/week1/assignment.md) |
  
-| Week 2 | The PEP8 Style Guide, Lists Program Execution Model, Functions, Parameters vs Arguments, Methods, Sorting  |
+| Week 2 |  List methods, string methods, copying lists, conditionals: if, else, while, for  |
 |:-------------:|:-----|
-| reading     |  |
+| reading     |   |
 | assignment    | [3 exercises](https://github.com/pythonwithalex/Spring2015/blob/master/week2/assignment.md) |
 
-| Week 3 | Working With Files, Paths, Libraries (````os```` and ````sys````), Modules |
+| Week 3 | Working With Files, Paths, Libraries (````os```` and ````sys````), Modules, The PEP8 Style Guide, Lists Program Execution Model, Functions, Parameters vs Arguments, Methods, Sorting |
 |:-------------:|:-----|
 | reading     | os.path.* explanation  |
 | assignment    | Write a module to accomplish a well-defined part of the HW's main task, import that into a main file that uses the module |
