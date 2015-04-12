@@ -3,7 +3,7 @@
 
 #### A note before you start: Programming is problem solving.  Start simple and build up.  Break a problem into smaller parts. 
 
-# SHORT EXERCISES 
+## Short Exercises 
 
 + write a function that prints "hello,world" 
 + write a function that takes in a name and prints "hello, <name>" 
