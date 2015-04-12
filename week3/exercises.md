@@ -1,26 +1,20 @@
-Programming With Python 
-Week 3 
-Exercises 
+## Programming With Python 
+# Week 3 Exercises 
 
-a note before you start: 
+#### A note before you start: Programming is problem solving.  Start simple and build up.  Break a problem into smaller parts. 
 
-Programming is just problem-solving in disguise. 
-Trying to tackling a problem all at once is NOT good strategy. 
-Breaking it down into parts IS good strategy. 
-Start simple and build up. 
+# SHORT EXERCISES 
 
-SHORT EXERCISES 
-
-write a function that prints "hello,world" 
-write a function that takes in a name and prints "hello, <name>" 
-write a function that prints the square of 12 
-write a function that takes a number as input and prints that number squared 
-write a function that prints the sum of the squares of 1 to 10 (including 10) 
-write a function that prints the sum of the squares of NUM to a higher NUM (including higher num) 
-write a function that takes a number as input and prints the number of digits it has 
-write a function that removes last letter of a string 
-write a function that tells us if a string contains a certain letter 
-write a function that splits a sentence into words and sorts by word a-z 
++ write a function that prints "hello,world" 
++ write a function that takes in a name and prints "hello, <name>" 
++ write a function that prints the square of 12 
++ write a function that takes a number as input and prints that number squared 
++ write a function that prints the sum of the squares of 1 to 10 (including 10) 
++ write a function that prints the sum of the squares of NUM to a higher NUM (including higher num) 
++ write a function that takes a number as input and prints the number of digits it has 
++ write a function that removes last letter of a string 
++ write a function that tells us if a string contains a certain letter 
++ write a function that splits a sentence into words and sorts by word a-z 
 
 HINT FOR THE LAST TWO SHORT EXAMPLES: 
 the % (modulo) operator will tell you the remainder when you divide a number by another number. 
