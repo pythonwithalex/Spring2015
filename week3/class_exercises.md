@@ -21,5 +21,5 @@ for n in range(5,):
 ````
 
 #### Questions:
-+ In the while loop, why would i not want to print n as the last line in the loop?
++ In the while loop, why would it be a bad idea to print `n` on the last line in the loop?
 + How do n in the `while` loop and n in the `for` loop differ?
