@@ -1,4 +1,4 @@
-## equivalent loops
+## Loop 'equivalence'
 
 #### while
 
