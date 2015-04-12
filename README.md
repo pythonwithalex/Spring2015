@@ -42,7 +42,7 @@ Note that the reading posted for each week in the syllabus is intended to be don
 | Week 2 | The PEP8 Style Guide, Lists Program Execution Model, Functions, Parameters vs Arguments, Methods, Sorting  |
 |:-------------:|:-----|
 | reading     |  |
-| assignment    | Scope Exercises, sorting exercises |
+| assignment    | [3 exercises](https://github.com/pythonwithalex/Spring2015/blob/master/week2/assignment.md) |
 
 | Week 3 | Working With Files, Paths, Libraries (````os```` and ````sys````), Modules |
 |:-------------:|:-----|
