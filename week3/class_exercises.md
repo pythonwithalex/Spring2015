@@ -24,7 +24,7 @@ for n in range(5):
 + In the while loop, why would it be a bad idea to print `n` on the last line of the loop?
 + What is the value of `n` after the for loop completes? after the while loop completes? Does this surprise you in either case?
 
-## A For Loop and an Equivalent List Comprehension
+## A For Loop and an Equivalent List Comprehension: Example 1
 
 ````python 
 # a for loop
@@ -44,7 +44,7 @@ container = [item for item in iterable if len(item)]
 
 ````
 
-#### Another For Loop and an Equivalent List Comprehension
+## A For Loop and an Equivalent List Comprehension: Example 2
 
 ````python
 # for loop
