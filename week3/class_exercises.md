@@ -26,6 +26,22 @@ for n in range(5):
 
 ## For Loop and List Comprehensions
 
+````python 
+# a for loop
+
+container = []
+for item in iterable:
+    container.append(item)
+    
+# a list comprehension
+
+| result | |   for loop body   |
+[item      for item in iterable]
+
+
+
+````
+
 ````python
 
 squares = [num**2 for num in range(10)]
