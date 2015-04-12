@@ -6,7 +6,6 @@
 + string formatting
 + functions
 + default arguments
-
 + calendar.txt is a file that has a date and a task informatino separated by a comma
 
 ````
