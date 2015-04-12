@@ -1,6 +1,6 @@
 ## Loop 'equivalence'
 
-#### While Loop
+#### While loop
 
 ````python
 
@@ -10,7 +10,7 @@ while n < 5:
   n = n + 1
 ````
 
-#### For Loop
+#### For loop
 
 
 ````python
@@ -21,7 +21,5 @@ for n in range(5):
 ````
 
 #### Questions:
-+ In the while loop, why would it be a bad idea to print `n` on the last line in the loop?
-+ How do n in the `while` loop and n in the `for` loop differ?
-+ What is the value of `n` after the while loop ends in example 1
-+ What is the value of `n` after the for loop ends
++ In the while loop, why would it be a bad idea to print `n` on the last line of the loop?
++ What is the value of `n` after the for loop completes? after the while loop completes? Does this surprise you in either case?
