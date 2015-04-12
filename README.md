@@ -44,7 +44,7 @@ Note that the reading posted for each week in the syllabus is intended to be don
 | reading     |  [conditionals](https://github.com/pythonwithalex/Spring2015/blob/master/week2/conditionals.md), [lists and strings review](https://github.com/pythonwithalex/Spring2015/blob/master/week2/list_string_review.md) |
 | assignment    | [3 exercises](https://github.com/pythonwithalex/Spring2015/blob/master/week2/assignment.md) |
 
-| Week 3 | Working With Files, Paths, Libraries (````os```` and ````sys````), Modules, The PEP8 Style Guide, Lists Program Execution Model, Functions, Parameters vs Arguments, Methods, Sorting |
+| Week 3 | Working With Files, Modules, PEP8, Functions, Parameters vs Arguments |
 |:-------------:|:-----|
 | reading     | os.path.* explanation  |
 | assignment    | Write a module to accomplish a well-defined part of the HW's main task, import that into a main file that uses the module |
