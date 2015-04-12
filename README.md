@@ -39,9 +39,9 @@ Note that the reading posted for each week in the syllabus is intended to be don
 | reading     | [Python Tutorial on Lists](https://docs.python.org/2/tutorial/datastructures.html) |
 | assignment    | [List exercises](https://github.com/pythonwithalex/Spring2015/blob/master/week1/assignment.md) |
  
-| Week 2 |  List methods, string methods, copying lists, conditionals: if, else, while, for  |
+| Week 2 |  List methods, string methods, copying lists, mutability, immutability, conditionals: if, else, while, for  |
 |:-------------:|:-----|
-| reading     |   |
+| reading     |  [conditionals](https://github.com/pythonwithalex/Spring2015/blob/master/week2/conditionals.md), [lists and strings review](https://github.com/pythonwithalex/Spring2015/blob/master/week2/list_string_review.md) |
 | assignment    | [3 exercises](https://github.com/pythonwithalex/Spring2015/blob/master/week2/assignment.md) |
 
 | Week 3 | Working With Files, Paths, Libraries (````os```` and ````sys````), Modules, The PEP8 Style Guide, Lists Program Execution Model, Functions, Parameters vs Arguments, Methods, Sorting |
