@@ -19,3 +19,7 @@ for n in range(5,):
   print n
 
 ````
+
+#### Questions:
++ in the while loop, why would i not want to print n as the last line in the loop?
++ how do n in the `while` loop and n in the `for` loop differ?
