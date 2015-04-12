@@ -6,8 +6,9 @@
 ## Short Exercises 
 
 + write a function that prints "hello,world" 
++ write a function that prints 'hello, world' reversed
 + write a function that takes in a name and prints "hello, <name>" 
-+ write a function that prints the square of 12 
++ write a function that prints the square of 12 (you can use the math library)
 + write a function that takes a number as input and prints that number squared 
 + write a function that prints the sum of the squares of 1 to 10 (including 10) 
 + write a function that prints the sum of the squares of NUM to a higher NUM (including higher num) 
