@@ -12,6 +12,7 @@
 3/29/2015, interview
 4/5/2015, sister's birthday
 6/7/2015, going to western ma for the weekend 
+
 ````
 
 + running remind.py parses the calendar.txt file and outputs a sentence like 'Going to Western MA for the weekend in 13 days'
