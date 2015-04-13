@@ -32,7 +32,7 @@ while n < 5:
   print n
 ````
 
-+ What is the value of `n` after the for loop completes? after the while loop completes? Does this surprise you in either case?
++ What is the value of `n` after the for loop completes? after the while loop completes? Does this surprise you in either case? If so, why?
 
 ## A For Loop and an Equivalent List Comprehension: Example 1
 
