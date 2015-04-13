@@ -8,7 +8,7 @@
 n = 0
 
 while n < 5:
-  n = n + 1 # 
+  n = n + 1 
   print n # this line was above 'n = n + 1' in the previous example
 
 ````
