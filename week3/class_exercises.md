@@ -24,7 +24,16 @@ for n in range(5): # equivalent to 'for n in [1,2,3,4,5]:'
 ````
 
 #### Questions:
-+ In the while loop, why would it be a bad idea to print `n` *after* reassigning it to one more than itself?
++ In the while loop below, why are the order of my statements problematic?
+
+````python
+while n < 5:
+  print n
+  n = n + 1 # reassign the value of 1 greater than n to the name 'n'
+````
+
+
+it be a bad idea to print `n` *after* reassigning it to one more than itself?
 + What is the value of `n` after the for loop completes? after the while loop completes? Does this surprise you in either case?
 
 ## A For Loop and an Equivalent List Comprehension: Example 1
