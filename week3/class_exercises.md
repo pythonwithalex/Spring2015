@@ -8,9 +8,9 @@
 n = 0
 
 while n < 5:
-  print n
-  n = n + 1 # reassign the value of 1 greater than n to the name 'n'
-  
+  n = n + 1 # 
+  print n # this line was above 'n = n + 1' in the previous example
+
 ````
 
 #### For loop
