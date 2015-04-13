@@ -8,8 +8,8 @@
 n = 0
 
 while n < 5:
-  n = n + 1 
-  print n # this line was above 'n = n + 1' in the previous example
+  print n
+  n = n + 1 # reassign the value of 1 greater than n to the name 'n'
 
 ````
 
@@ -28,12 +28,10 @@ for n in range(5): # equivalent to 'for n in [1,2,3,4,5]:'
 
 ````python
 while n < 5:
+  n = n + 1      # reassign 'n' to one more than the current n
   print n
-  n = n + 1 # reassign the value of 1 greater than n to the name 'n'
 ````
 
-
-it be a bad idea to print `n` *after* reassigning it to one more than itself?
 + What is the value of `n` after the for loop completes? after the while loop completes? Does this surprise you in either case?
 
 ## A For Loop and an Equivalent List Comprehension: Example 1
