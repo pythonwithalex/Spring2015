@@ -4,10 +4,13 @@
 
 ````python
 
+# assign the value zero to the name 'n'
 n = 0
+
 while n < 5:
   print n
-  n = n + 1
+  n = n + 1 # reassign the value of 1 greater than n to the name 'n'
+  
 ````
 
 #### For loop
