@@ -33,6 +33,8 @@ while n < 5:
 ````
 
 + What is the value of `n` after the for loop completes? after the while loop completes? Does this surprise you in either case? If so, why?
++ What types of conditions could lead each of these types to go wrong?
++ 
 
 ## A For Loop and an Equivalent List Comprehension: Example 1
 
