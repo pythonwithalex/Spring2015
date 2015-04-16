@@ -17,22 +17,18 @@ In python, we must define our own functions before we can use them.  The functio
 We define a function like this:
 
 ````python
-def makePerson(<arg1>,<arg2>,<arg3>, ...):
-
-    name=<arg1>
-    independent = False
-    age=<arg3>
-    if age >= 18:
-        independent = True
-    height=<arg2> 
-    person = list(independent,age,name,height)
-    return person
+def subtract(arg1,arg2):
+  # code
+  # code
+  
 ````
 
 ## Main points here:
 
 + A function definition is needed to create your own function
-+ a function definition starts with `def <function_name>(<arg1>,<arg2>,...)`
++ A function needs to be defined before you use it, aka call it.
++ a function definition starts with `def <function_name>(<comma-separated list of names for input values>)`
++ 'names for input values' are technically called *parameters*
 + arg1, arg, ... etc are all optional.  Use them as placeholders for data you want to pass to the function.
 + After the `def` statement line, indent 4 spaces. Indent 4 more spaces for any containing `for` or `while` loop.
 
