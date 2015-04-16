@@ -1,3 +1,5 @@
++ string formatting: format and join
+
 + Basic Ideas Quiz: What is....
   
   + a variable ?
@@ -8,9 +10,10 @@
   + conditional ?
   + a mutable value ?
   + an immutable value ? 
-  
+  + When is a good time to use a list?
+
 + Do Assignment as Class
-  + do rev0 and rev1, then introduce functions before doing rev2 and rev3
+  + do rev0 and rev1, then introduce functions 
 
 + Functions Introduction
   + mathematical definition of a function: maps input to output, takes arguments and returns a value
@@ -24,11 +27,11 @@
 + Assignment rev2 and rev3
 
 + Function Exercises:
-  + max
+  + Writing a Max function
     - no functions
     - one funcion
     - two funcs, one that compares two numbers, one that loops through structure, comparing two
-  + calling Five Functions
+  + Calling many Functions
   
 
 
