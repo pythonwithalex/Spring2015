@@ -2,14 +2,16 @@
 
 + Basic Ideas Quiz: What is....
   
-  + a variable ?
-  + a list ?
-  + a value ?
-  + a for loop ?
-  + a while loop ?
-  + conditional ?
-  + a mutable value ?
-  + an immutable value ? 
+  + a variable?
+  + a list?
+  + a value?
+  + a for loop?
+  + a while loop?
+  + What do I type to get the last item in a list?
+  + conditional?
+  + a mutable value?
+  + an immutable value? 
+  + What do I type to reverse a list?
   + When is a good time to use a list?
 
 + Do Assignment as Class
