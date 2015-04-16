@@ -17,20 +17,25 @@ In python, we must define our own functions before we can use them.  The functio
 We define a function like this:
 
 ````python
+# this function takes arguments
 def subtract(arg1,arg2):
   # code
   # code
-  
+
+# this function doesn't take arguments
+def subtract():
+  # code
+  # code  
 ````
 
 ## Main points here:
 
-+ A function definition is needed to create your own function
-+ A function needs to be defined before you use it, aka call it.
-+ a function definition starts with `def <function_name>(<comma-separated list of names for input values>)`
-+ 'names for input values' are technically called *parameters*
-+ arg1, arg, ... etc are all optional.  Use them as placeholders for data you want to pass to the function.
-+ After the `def` statement line, indent 4 spaces. Indent 4 more spaces for any containing `for` or `while` loop.
++ A function definition is needed to create your own function.
++ A function needs to be defined before you call it in your code.
++ A function definition starts with `def <function_name>(<comma-separated list of names for input values>)`
++ 'names for input values' are technically called **parameters**
++ arg1, arg, ... etc are all optional but if you want your function to transform data, you probably want to use parameters in your function. Separate each parameter with a comma.
++ After the `def` statement line, indent 4 spaces before entering your code. Indent 4 more spaces for any containing `for` or `while` loop.
 
 ## What is the Point of a Functions?
 
@@ -69,23 +74,20 @@ for person in people:
   print person
 ````
 
-Question:
+#### Question:
 
-We didn't need the function makePerson to make Mike.  Why did we use the function?
+We didn't need the function makePerson to make Mike.  Why did we use the function? I can think of at least three reasons why a function is useful.
 
-Your Challenge:
+#### Your Challenge:
 
 Write a program that doubles the square of a third of the reverse of the max of this list: [01,94,30,3.0,53]. It should have five functions that do the work of accepting arguments and calling them, plus a main function that 'wraps' the program.
 
-Please try any approach you like but don't do this: 
+Please try any approach you like, just don't do this: 
 
+````python
 def main():
 
     return func5(func4(func3(func2(func1()))))
 
 main()
-
-# variations:
-# while loop f[num]()
-# for loop num()
-'''
+````
