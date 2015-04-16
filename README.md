@@ -46,5 +46,5 @@ Note that the reading posted for each week in the syllabus is intended to be don
 
 | Week 3 | Working With Files, Modules, PEP8, Functions, Parameters vs Arguments |
 |:-------------:|:-----|
-| reading     | os.path.* explanation  |
-| assignment    | Write a module to accomplish a well-defined part of the HW's main task, import that into a main file that uses the module |
+| reading     | [dictionaries](https://docs.python.org/2/tutorial/datastructures.html#dictionaries) and [looping techniques with dictionaries](https://docs.python.org/2/tutorial/datastructures.html#looping-techniques) |
+| assignment    | |
