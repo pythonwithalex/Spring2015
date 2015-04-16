@@ -1,6 +1,20 @@
 ## Functions
 
-A function is defined like this:
+In Math, functions take values in and map them to new values.
+````
+f(x) -> x*x
+f(4) -> 16
+````
+
+This is a good starting point to understanding functions.  Think of a function as a black box that takes data in and sends data out.
+
+4, 5, 6 --> FUNCTION --> 16, 25, 36
+4, 5, 6 --> FUNCTION --> 15
+
+
+In python, we must define our own functions before we can use them.  The functions we've been using (len, max, sum, etc...) have all been defined somewhere else before hand.  
+
+We define a function like this:
 
 ````python
 def makePerson(<arg1>,<arg2>,<arg3>, ...):
@@ -15,26 +29,48 @@ def makePerson(<arg1>,<arg2>,<arg3>, ...):
     return person
 ````
 
-## Main points there:
+## Main points here:
 
 + A function definition is needed to create your own function
-+ a function definition starts with `def <function_name>()`
-+ A function does not require input values, but if you want take in input values, put them separated by a comma inside the `()`.
-+ Indent 4 spaces to start. Indent 4 more spaces for each inner loop.
-+ type lines of code
++ a function definition starts with `def <function_name>(<arg1>,<arg2>,...)`
++ arg1, arg, ... etc are all optional.  Use them as placeholders for data you want to pass to the function.
++ After the `def` statement line, indent 4 spaces. Indent 4 more spaces for any containing `for` or `while` loop.
+
+## What is the Point of a Functions?
+
+Here's a Trivial Example, that doesn't really express the point:
 
 ````python
+# function definition
+def sample_func(a,b):
+  print a,b
+
+# now that it's defined, I can use it
+sample_func('alex','ramsdell')
+# prints 'alex ramsdell'
+````
+
+Given the above example, you might ask, 'Why do I need a function to simply print two values?'.  That's a reasonable question, so here is a less trivial example.   
+
+````python
+def makePerson(first_name,age,height_string):
+  person = []
+  person.append(first_name,age,height_string)
+  return person
+  
 people = []
-names = ['make','bobby','zan','beatrice','markus']:
+names = ['make','bobby','zan','beatrice','markus']
+
 for first_name in names:
-    age = random.randrange(4,100)
-    feet = random.randrange(4,8)
-    inches = random.randrange(0,11) 
-    height_string = '{}ft, {}in'.format(feet,inches)
+  age = random.randrange(4,100)
+  feet = random.randrange(4,8)
+  inches = random.randrange(0,11) 
+  height_string = '{}ft, {}in'.format(feet,inches)
+  # And here we call the makePerson function.
+  people.append(makePerson(first_name,age,height_string))
 
-    # And here we call the makePerson function.
-
-    people.append(makePerson(first_name,age,height_string))
+for person in people:
+  print person
 ````
 
 Question:
