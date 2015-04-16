@@ -14,7 +14,7 @@ This is a good starting point to understanding functions.  Think of a function a
 ````
 
 #### Defining Functions
-In python, we must define our own functions before we can use them.  The functions we've been using (len, max, sum, etc...) have all been defined somewhere else before hand.  
+In python, we must define our own functions before we can use them.  The functions we've been using (len, max, sum, etc...) have all been defined somewhere else beforehand.  
 
 We define a function like this:
 
@@ -39,7 +39,7 @@ def subtract():
 + arg1, arg, ... etc are all optional but if you want your function to transform data, you probably want to use parameters in your function. Separate each parameter with a comma.
 + After the `def` statement line, indent 4 spaces before entering your code. Indent 4 more spaces for any containing `for` or `while` loop.
 
-## What is the Point of a Functions?
+## What is the Point of a Function?
 
 Here's a Trivial Example, that doesn't really express the point:
 
@@ -56,9 +56,14 @@ sample_func('alex','ramsdell')
 Given the above example, you might ask, 'Why do I need a function to simply print two values?'.  That's a reasonable question, so here is a less trivial example.   
 
 ````python
-def makePerson(first_name,age,height_string):
+import random
+
+def makePerson(first_name,age,height_ft,height_inches):
   person = []
-  person.append(first_name,age,height_string)
+  person.append(first_name)
+  person.append(age)
+  height_string = "{}ft, {}in".format(height_ft,height_inches)
+  person.append(height_string)
   return person
   
 people = []
@@ -66,11 +71,10 @@ names = ['make','bobby','zan','beatrice','markus']
 
 for first_name in names:
   age = random.randrange(4,100)
-  feet = random.randrange(4,8)
-  inches = random.randrange(0,11) 
-  height_string = '{}ft, {}in'.format(feet,inches)
+  height_ft = random.randrange(4,8)
+  height_inches = random.randrange(0,11) 
   # And here we call the makePerson function.
-  people.append(makePerson(first_name,age,height_string))
+  people.append(makePerson(first_name,age,height_ft,height_inches))
 
 for person in people:
   print person
