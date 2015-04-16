@@ -8,7 +8,8 @@ f(4) -> 16
 
 This is a good starting point to understanding functions.  Think of a function as a black box that takes data in and sends data out.
 
-````4, 5, 6 --> FUNCTION --> 16, 25, 36
+````
+4, 5, 6 --> FUNCTION --> 16, 25, 36
 4, 5, 6 --> FUNCTION --> 15
 ````
 
