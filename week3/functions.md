@@ -13,6 +13,7 @@ This is a good starting point to understanding functions.  Think of a function a
 4, 5, 6 --> FUNCTION --> 15
 ````
 
+#### Defining Functions
 In python, we must define our own functions before we can use them.  The functions we've been using (len, max, sum, etc...) have all been defined somewhere else before hand.  
 
 We define a function like this:
@@ -29,7 +30,7 @@ def subtract():
   # code  
 ````
 
-## Main points here:
+#### Main points here:
 
 + A function definition is needed to create your own function.
 + A function needs to be defined before you call it in your code.
