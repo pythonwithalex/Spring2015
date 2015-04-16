@@ -10,6 +10,8 @@
   + an immutable value ? 
   
 + Do Assignment as Class
+  + do rev0 and rev1, then introduce functions before doing rev2 and rev3
+
 + Functions Introduction
   + mathematical definition of a function: maps input to output, takes arguments and returns a value
   + what this means for us: black box
@@ -18,12 +20,15 @@
   + difference between function name, function value, function call, function call value
   + trivial demonstration: print two numbers
   + non-trivial demonstration: makePerson
-+ Exercises:
+
++ Assignment rev2 and rev3
+
++ Function Exercises:
   + max
     - no functions
     - one funcion
     - two funcs, one that compares two numbers, one that loops through structure, comparing two
-
+  + calling Five Functions
   
 
 
