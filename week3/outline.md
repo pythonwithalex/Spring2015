@@ -1,5 +1,5 @@
++ Dates we skip for this class
 + string formatting: **format** and **join**
-
 + Basic Ideas Quiz: What is....
   
   + a variable?
