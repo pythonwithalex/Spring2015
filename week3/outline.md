@@ -1,4 +1,4 @@
-+ string formatting: format and join
++ string formatting: **format** and **join**
 
 + Basic Ideas Quiz: What is....
   
