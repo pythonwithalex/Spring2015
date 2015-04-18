@@ -5,6 +5,8 @@
 
 Please try any approach you like but don't do this: 
 
+````python
+
 def main():
 
     return func5(func4(func3(func2(func1()))))
@@ -14,3 +16,5 @@ main()
 # variations:
 # while loop f[num]()
 # for loop num()
+
+````
