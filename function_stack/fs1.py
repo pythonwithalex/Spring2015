@@ -2,8 +2,6 @@
 
 # get a third of the square of half of the reverse of the str() of the max of this list [01,22,1,1.00,4,-20]
 
-# decorator for int conversion if necessary?
-
 def string_to_float(func):
   def inner(n):
     if type(n) is str:
