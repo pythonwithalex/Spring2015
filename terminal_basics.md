@@ -23,7 +23,7 @@ al-laptop:data alexr$
 
 #### Filesystem Organization
 
-An important part of using a shell is understanding how the system's files are organized. Mac OS X is more or less part of the Unix-like family of Operating Systems and thus its files are arranged in accordance with the Filesystem Hierarchy Standard.  In order to avoid boring you to death, just know that this means that the filesystem follows a standard that makes it easy to locate common and essential files.  Also, this means that the Mac OS X filesystem can be visualized as a single tree.  The 'root' is considered the outer-most directory in that everything else is treated as if it's inside the root.  Inside the 'root' directory is a directory called /Users.  Inside /Users is the Student directory where we store our files. 
+An important part of using a shell is understanding how the system's files are organized. Mac OS X is more or less part of the Unix-like family of Operating Systems and thus its files are arranged in accordance with the Filesystem Hierarchy Standard.  In order to avoid boring you to death, just know that this means that the filesystem follows a standard that makes it easy to locate common and essential files (standards are good: they make your job as a developer much simpler).  Also, most importanly for us, this means that the Mac OS X filesystem can be visualized as a single tree (well, an upside-down tree).  The 'root' of the tree is at the top and is considered the outer-most directory in that everything else is treated as if it's inside the root.  Inside the 'root' directory is a directory called /Users.  Inside /Users is the Student directory.  Inside /Student are Documents, Desktop, Pictures, etc.  Inside Desktop or Documents, we store our Python files. 
 
 ````
                           /
@@ -32,17 +32,17 @@ An important part of using a shell is understanding how the system's files are o
      /Student             /Time Machine Backups       ....
        /Desktop
          lists.py
+       /Documents
+         csvparser.py
 ````
 
-**Note**: On a Windows machine, you will have a C drive and maybe a D drive if you have a separate data partition, and if you mount an external drive, that will have be organized under a new, separate drive letter, maybe Z.  Unix-like filesystems don't do this.  This is not in accordance with the Filesystem Hierarchy Standard because the entire computer is not organized as a single tree.  In contrast, in OS X, we have the '/' or root directory as the very top-level of the filesystem.  If we mount an external drive, that doesnt' get a separate drive letter.  A new directory is created (let's say it is /Volumes/DATA_USB) and the USB drive is mounted at that path.  Thus, even though the disk is external to the filesystem, it **looks** like a regular directory (don't be alarmed, there are easy ways to tell if a filesystem is external or not).  
+**Note**: On a Windows machine, you will have a C drive and maybe a D drive if you have a separate data partition, and if you mount an external drive, that will have be organized under a new, separate drive letter, maybe Z.  Unix-like filesystems don't do this.  Since the '/' directory, aka the root directory, is the very top-level of the filesystem.  If we mount an external drive (a Time Machine disk, a USB drive), that doesn't get a separate drive letter like it would on a Windows machine.  Instead, a new directory is automatically created (let's say it is /Volumes/DATA_USB) and the USB drive is mounted at that path.  We can navigate to the external disk's files just like any other directory on the machine. Even though the disk is external to the system's bootable filesystem, it **looks** like a regular directory.  Don't be alarmed, though, there are easy ways to tell if a filesystem is external or not (hint: try the `df` command).  
 
 #### Terminal Prompt
 `al-laptop:data alexr$`
 The terminal prompt tells you a few things:
 + the name of your computer, `al-laptop`
 + the director you are in, `data`
-+ your username
++ your username, `alexr`
++ What type of user you are: `$` means you are a regular user.  You don't have access to all files, just those that you own.
 
-#### Recap
-+ 'Terminal' is a general word to describe a interactive, text-based mode of computing.
-+ 
