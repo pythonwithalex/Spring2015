@@ -39,10 +39,70 @@ An important part of using a shell is understanding how the system's files are o
 **Note**: On a Windows machine, you will have a C drive and maybe a D drive if you have a separate data partition, and if you mount an external drive, that will have be organized under a new, separate drive letter, maybe Z.  Unix-like filesystems don't do this.  Since the '/' directory, aka the root directory, is the very top-level of the filesystem.  If we mount an external drive (a Time Machine disk, a USB drive), that doesn't get a separate drive letter like it would on a Windows machine.  Instead, a new directory is automatically created (let's say it is /Volumes/DATA_USB) and the USB drive is mounted at that path.  We can navigate to the external disk's files just like any other directory on the machine. Even though the disk is external to the system's bootable filesystem, it **looks** like a regular directory.  Don't be alarmed, though, there are easy ways to tell if a filesystem is external or not (hint: try the `df` command).  
 
 #### Terminal Prompt
-`al-laptop:data alexr$`
-The terminal prompt tells you a few things:
-+ the name of your computer, `al-laptop`
-+ the director you are in, `data`
+
+The terminal prompt looks like this: `al-laptop:data alexr$`
+
+It tells you some useful things in a pretty compact way:
+
++ the hostname of your computer, `al-laptop`
++ the directory you are in, `data`
 + your username, `alexr`
 + What type of user you are: `$` means you are a regular user.  You don't have access to all files, just those that you own.
 
+#### Some Useful Commands
+
+**the date**
+
+````bash
+al-laptop:data alexr$ date
+Sun Apr 26 11:53:02 EDT 2015
+````
+
+**the hostname of your computer**
+
+````bash
+al-laptop:data alexr$ hostname
+al-laptop.local
+````
+
+** the directory you are in **
+
+````bash
+al-laptop:data alexr$ pwd
+/data
+al-laptop:data alexr$
+````
+
+** change into a different directory **
+
+````bash
+al-laptop:data alexr$ cd python
+al-laptop:python alexr$ 
+````
+
+** the files in your current directory **
+
+````bash
+al-laptop:python alexr$ ls
+algorithms_in_python.pdf
+curses_base.py
+davidMertz-python-Functional-Programming.pdf
+dive-into-python3.pdf
+django_1.6_docs.pdf
+flask-docs.pdf
+hackingciphers.pdf
+head_first_python.pdf
+magicmethods.pdf
+makinggames.pdf
+oop_general
+pptrs.pdf
+python_building_machine_learning_systems.pdf
+python_highperformance.pdf
+pythonexcel.pdf
+text_processing_in_python.pdf
+textprocessing_davidmertz.pdf
+thinkbayes.pdf
+thinkpython.pdf
+writing_idiomatic_python_3.pdf
+al-laptop:python alexr$ 
+````
