@@ -40,9 +40,9 @@ An important part of using a shell is understanding how the system's files are o
 
 #### Terminal Prompt
 
-The terminal prompt looks like this: `al-laptop:data alexr$`
+The terminal prompt default settings looks like this on my machine: `al-laptop:data alexr$`.  You type commands after this line and hit enter.  Then the bash shell sends those commands to the OS kernel (aka, the OS internals).
 
-It tells you some useful things in a pretty compact way:
+It could just be `>` if you wanted, but the default provides some useful things in a pretty compact way:
 
 + the hostname of your computer, `al-laptop`
 + the directory you are in, `data`
