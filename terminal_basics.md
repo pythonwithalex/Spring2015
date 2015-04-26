@@ -65,22 +65,23 @@ al-laptop:data alexr$ hostname
 al-laptop.local
 ````
 
-** the directory you are in **
+**the directory you are in**
 
 ````bash
 al-laptop:data alexr$ pwd
 /data
-al-laptop:data alexr$
+al-laptop:data alexr$ 
 ````
 
-** change into a different directory **
+**change into a different directory**
 
 ````bash
 al-laptop:data alexr$ cd python
-al-laptop:python alexr$ 
+al-laptop:python alexr$  pwd
+/data/python
 ````
 
-** the files in your current directory **
+**the files in your current directory**
 
 ````bash
 al-laptop:python alexr$ ls
