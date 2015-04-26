@@ -17,11 +17,22 @@ student@computer ~$
 + Terminals used to be the only thing between a user and a large multi-user mainframe.  Terminals as we use them in our class are really virtual terminals, in that they run inside a graphical environment on a workstation or personal computer.  
 + This means that the Apple Terminal is just the packaging for what we consider to really be the terminal, aka the REPL loop with the  `student@computer ~$` prompt.  
 + The Apple Terminal will by default give you a Bash shell. 
-+ A shell is the interface between you and the Operating System.  You enter commands or lines of Bash programming code into the shell and it hands it off to a lower level where the actual work is done
-+ To recap, Bash is 1) a shell that manipulates the Operating System and 2) the programming language that you use to manipulate the Operating System.   It works hand in hand with the lower levels of OS X that the user isn't able to access.
++ A shell is the interface between you and the Operating System.  You enter simple commands or lines of Bash programming code into the shell and these are in turn translated into commands by the Operating System's kernel and the actual bulk of the work is done.
++ To recap, Bash is 1) a shell that manipulates the Operating System and 2) the programming language that you use to manipulate the Operating System.   
 + When you login to a terminal, you see `student@computer ~$`.  This is a Bash prompt.
 
 #### Filesystem Organization
+
+An important part of using a shell is understanding how the system's files are organized. Mac OS X is more or less part of the Unix-like family of Operating Systems and thus its files are arranged in accordance with the Filesystem Hierarchy Standard.  In order to avoid boring you to death, just know that this means that the filesystem can be visualized as a tree.  The 'root' is considered the outer-most directory in that everything else is treated as if it's inside the root.  Inside the 'root' directory is a directory called /Users.  Inside /Users, 
+
+`
+                          /
+                 
+   /Users               /Volumes         /System   
+     /Student
+       /Desktop
+         foterm.py
+`
 
 #### Terminal Prompt
 
