@@ -4,6 +4,16 @@
 
 + A terminal is a general term that stands for any text-only mode of interaction with an Operating System.
 + The essence of a terminal environment is the notion of the **READ EVALUATE PRINT LOOP (aka, REPL)** in which your typed commands are read and executed on a line-by-line basis.
+
+````bash
+student@computer ~$ date
+Sun Apr 26 11:18:55 EDT 2015
+student@computer ~$ whoami
+alex
+student@computer ~$
+
+````
+
 + Terminals used to be the only thing between a user and a large multi-user mainframe.  Terminals as we use them in our class are really virtual terminals, in that they run inside a graphical environment on a workstation or personal computer.  
 + This means that the Apple Terminal is just the packaging for what we consider to really be the terminal, aka the REPL loop with the  `student@computer ~$` prompt.  
 + The Apple Terminal will by default give you a Bash shell. 
