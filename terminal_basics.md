@@ -107,3 +107,11 @@ thinkpython.pdf
 writing_idiomatic_python_3.pdf
 al-laptop:python alexr$ 
 ````
+
+**the last 3 files in your current directory**
+````bash
+al-laptop:python alexr$ ls | tail -n 3
+thinkbayes.pdf
+thinkpython.pdf
+writing_idiomatic_python_3.pdf
+````
