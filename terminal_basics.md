@@ -23,15 +23,15 @@ student@computer ~$
 
 #### Filesystem Organization
 
-An important part of using a shell is understanding how the system's files are organized. Mac OS X is more or less part of the Unix-like family of Operating Systems and thus its files are arranged in accordance with the Filesystem Hierarchy Standard.  In order to avoid boring you to death, just know that this means that the filesystem can be visualized as a tree.  The 'root' is considered the outer-most directory in that everything else is treated as if it's inside the root.  Inside the 'root' directory is a directory called /Users.  Inside /Users, 
+An important part of using a shell is understanding how the system's files are organized. Mac OS X is more or less part of the Unix-like family of Operating Systems and thus its files are arranged in accordance with the Filesystem Hierarchy Standard.  In order to avoid boring you to death, just know that this means that the filesystem can be visualized as a tree.  The 'root' is considered the outer-most directory in that everything else is treated as if it's inside the root.  Inside the 'root' directory is a directory called /Users.  Inside /Users is the Student directory where we store our files. 
 
 ````
                           /
                  
-   /Users               /Volumes         /System   
-     /Student
+   /Users               /Volumes                    /System   
+     /Student             /Time Machine Backups       ....
        /Desktop
-         foterm.py
+         lists.py
 ````
 
 #### Terminal Prompt
