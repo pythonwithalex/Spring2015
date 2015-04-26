@@ -6,20 +6,20 @@
 + The essence of a terminal environment is the notion of the **READ EVALUATE PRINT LOOP (aka, REPL)** in which your typed commands are read and executed on a line-by-line basis.
 
 ````bash
-student@computer ~$ date
+al-laptop:data alexr$ date
 Sun Apr 26 11:18:55 EDT 2015
-student@computer ~$ whoami
+al-laptop:data alexr$ whoami
 alex
-student@computer ~$
+al-laptop:data alexr$
 
 ````
 
 + Terminals used to be the only thing between a user and a large multi-user mainframe.  Terminals as we use them in our class are really virtual terminals, in that they run inside a graphical environment on a workstation or personal computer.  
-+ This means that the Apple Terminal is just the packaging for what we consider to really be the terminal, aka the REPL loop with the  `student@computer ~$` prompt.  
++ This means that the Apple Terminal is just the packaging for what we consider to really be the terminal, aka the REPL loop with the  `al-laptop:data alexr$` prompt.  
 + The Apple Terminal will by default give you a Bash shell. 
 + A shell is the interface between you and the Operating System.  You enter simple commands or lines of Bash programming code into the shell and these are in turn translated into commands by the Operating System's kernel and the actual bulk of the work is done.
 + To recap, Bash is 1) a shell that manipulates the Operating System and 2) the programming language that you use to manipulate the Operating System.   
-+ When you login to a terminal, you see `student@computer ~$`.  This is a Bash prompt.
++ When you login to a terminal, you see `al-laptop:data alexr$`.  This is a Bash prompt.
 
 #### Filesystem Organization
 
@@ -35,9 +35,11 @@ An important part of using a shell is understanding how the system's files are o
 ````
 
 #### Terminal Prompt
-
+`al-laptop:data alexr$`
 The terminal prompt tells you a few things:
-+ which directory you are in 
++ the name of your computer, `al-laptop`
++ the director you are in, `data`
++ your username
 
 #### Recap
 + 'Terminal' is a general word to describe a interactive, text-based mode of computing.
