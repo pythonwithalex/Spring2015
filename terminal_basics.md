@@ -3,7 +3,7 @@
 #### What is a Terminal?
 
 + A terminal is a general term that stands for any text-only mode of interaction with an Operating System.
-+ The essence of a terminal environment is the notion of the **READ EVALUATE PRINT LOOP (aka, REPL)** in which your typed commands are read and executed on a line-by-line basis.
++ The essence of a terminal environment is the notion of the **READ EVALUATE PRINT LOOP (aka, REPL)** in which your typed commands are read and executed on a line-by-line basis, while you supply commands to be executed.
 
 ````bash
 al-laptop:data alexr$ date
