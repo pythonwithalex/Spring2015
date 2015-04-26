@@ -23,7 +23,7 @@ al-laptop:data alexr$
 
 #### Filesystem Organization
 
-An important part of using a shell is understanding how the system's files are organized. Mac OS X is more or less part of the Unix-like family of Operating Systems and thus its files are arranged in accordance with the Filesystem Hierarchy Standard.  In order to avoid boring you to death, just know that this means that the filesystem can be visualized as a tree.  The 'root' is considered the outer-most directory in that everything else is treated as if it's inside the root.  Inside the 'root' directory is a directory called /Users.  Inside /Users is the Student directory where we store our files. 
+An important part of using a shell is understanding how the system's files are organized. Mac OS X is more or less part of the Unix-like family of Operating Systems and thus its files are arranged in accordance with the Filesystem Hierarchy Standard.  In order to avoid boring you to death, just know that this means that the filesystem follows a standard that makes it easy to locate common and essential files.  Also, this means that the Mac OS X filesystem can be visualized as a single tree.  The 'root' is considered the outer-most directory in that everything else is treated as if it's inside the root.  Inside the 'root' directory is a directory called /Users.  Inside /Users is the Student directory where we store our files. 
 
 ````
                           /
@@ -33,6 +33,8 @@ An important part of using a shell is understanding how the system's files are o
        /Desktop
          lists.py
 ````
+
+**Note**: On a Windows machine, you will have a C drive and maybe a D drive if you have a separate data partition, and if you mount an external drive, that will have be organized under a new, separate drive letter, maybe Z.  Unix-like filesystems don't do this.  This is not in accordance with the Filesystem Hierarchy Standard because the entire computer is not organized as a single tree.  In contrast, in OS X, we have the '/' or root directory as the very top-level of the filesystem.  If we mount an external drive, that doesnt' get a separate drive letter.  A new directory is created (let's say it is /Volumes/DATA_USB) and the USB drive is mounted at that path.  Thus, even though the disk is external to the filesystem, it **looks** like a regular directory (don't be alarmed, there are easy ways to tell if a filesystem is external or not).  
 
 #### Terminal Prompt
 `al-laptop:data alexr$`
