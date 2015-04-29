@@ -1,6 +1,6 @@
-#### DICTIONARIES 
+#### Dictionaries
 
-A dictionary is a data structure that holds {key, value} pairs. In other languages this data structure is referred to as an associative array or a hash map.
+A dictionary is a data structure that holds {key, value} pairs. Other languages refer to this class of data structure as an *associative array* or a *hash map*.
 
 We say that a Python dictionary 'maps' keys to values. In other words, you look up a key in a dictionary like this:
 
@@ -20,6 +20,15 @@ ball = dict()
 # a dictionary literal:
 ball = {}
 `````
+
+Once you've created a dict object, you can add values to it like this:
+
+````python
+
+ball['weight'] = 15
+ball['pos'] = [3,4]
+
+````
 
 #### Some Facts about Dictionaries
 + They are incredibly useful for storing data under human-friendly labels. 
