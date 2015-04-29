@@ -12,19 +12,8 @@ and get a value back:
 15.2
 ````
 
-Key Value 
-
-'ID002' -> 'John Smith' 
-'ID000' -> 'Test Student' 
-'ID021' -> 'Arnold Finkler' 
-
-The syntax for dictionary lookups is similar to that of a single index lookup in a list. 
-
-With lists you can access the items by index: squares[4]. 
-With dictionaries you access the items by key: students['ID002']. 
-
-RULES REGARDING DICTIONARY KEYS 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+#### Some Rules Regarding Dictionary Keys
+ 
 
 You can't use slice syntax with a dictionaries because objects aren't located by position. In fact, they are added to a dictionary in an arbitrary order, so you should never depend on Python's built in DICT for order. 
 
