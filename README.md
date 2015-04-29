@@ -47,7 +47,7 @@ Note that the reading posted for each week in the syllabus is intended to be don
 | Week 3 | Working With Files, Modules, Functions, Parameters vs Arguments |
 |:-------------:|:-----|
 | reading     | [dictionaries](https://docs.python.org/2/tutorial/datastructures.html#dictionaries) and [looping techniques with dictionaries](https://docs.python.org/2/tutorial/datastructures.html#looping-techniques) |
-| assignment    | TBD |
+| assignment    | [Using Functions] (https://github.com/pythonwithalex/Spring2015/blob/master/week4/week_3_assignment.md) |
 
 | Week 4 | Functions in More Depth, Dictionaries, Interfacing with a Database |
 |:-------------:|:-----|
