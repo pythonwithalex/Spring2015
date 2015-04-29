@@ -1,10 +1,17 @@
 DICTIONARIES 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
-A dictionary is an object that holds from 0 to many {key, value} pairs. 
+A dictionary is an object that holds {key, value} pairs. 
 
-We say that it 'maps' keys to values. 
-You put in a key and get a value back. 
+We say that it 'maps' keys to values. In other words, you look up a key like this:
+
+````python
+ball['weight']
+````
+and get a value back:
+````python
+15.2
+````
 
 Key Value 
 
