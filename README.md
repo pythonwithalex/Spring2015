@@ -48,3 +48,8 @@ Note that the reading posted for each week in the syllabus is intended to be don
 |:-------------:|:-----|
 | reading     | [dictionaries](https://docs.python.org/2/tutorial/datastructures.html#dictionaries) and [looping techniques with dictionaries](https://docs.python.org/2/tutorial/datastructures.html#looping-techniques) |
 | assignment    | TBD |
+
+| Week 4 | Network Programming Intro, A BareBones Chat Client |
+|:-------------:|:-----|
+| reading     | [python network programming](https://www.youtube.com/watch?v=XiVVYfgDolU) and [looping techniques with dictionaries](https://docs.python.org/2/tutorial/datastructures.html#looping-techniques) |
+| assignment    | TBD |
