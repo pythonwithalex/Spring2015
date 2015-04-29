@@ -1,8 +1,8 @@
 #### DICTIONARIES 
 
-A dictionary is an object that holds {key, value} pairs. 
+A dictionary is a data structure that holds {key, value} pairs. In other languages this data structure is referred to as an associative array or a hash map.
 
-We say that it 'maps' keys to values. In other words, you look up a key like this:
+We say that a Python dictionary 'maps' keys to values. In other words, you look up a key in a dictionary like this:
 
 ````python
 ball['weight']
@@ -12,7 +12,24 @@ and get a value back:
 15.2
 ````
 
-#### Some Rules Regarding Dictionary Keys
+Let's backup for a second.  You can create a dictionary in two ways:
+
+````python
+# the explicit dict() way:
+ball = dict()
+# a dictionary literal:
+ball = {}
+`````
+
+#### Some Facts about Dictionaries
++ They are incredibly useful for storing data under human-friendly labels. 
++ The label must be immutable, meaning you can't use a list as a key that maps to some value.
+
+````python
+l = [1,2,3]
+mydict[l]
+````
++ You cannot rely on the order of the items in the dictionary.  This means that they **are not for** sequential data where the order of the items in your collection should be stable.  If you have a Python program that relies on the apparent order of a dictionary, it might work for a while, but once you reboot your computer, you will most likely find that order has changed.  
  
 
 You can't use slice syntax with a dictionaries because objects aren't located by position. In fact, they are added to a dictionary in an arbitrary order, so you should never depend on Python's built in DICT for order. 
