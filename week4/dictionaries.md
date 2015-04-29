@@ -23,11 +23,13 @@ ball = {}
 
 #### Some Facts about Dictionaries
 + They are incredibly useful for storing data under human-friendly labels. 
++ They do not store their key value pairs in any dependable order, so don't use them for sequential data.
 + The label must be immutable, meaning you can't use a list as a key that maps to some value.
 
 ````python
 l = [1,2,3]
 mydict[l]
+TypeError: unhashable type: 'list'
 ````
 + You cannot rely on the order of the items in the dictionary.  This means that they **are not for** sequential data where the order of the items in your collection should be stable.  If you have a Python program that relies on the apparent order of a dictionary, it might work for a while, but once you reboot your computer, you will most likely find that order has changed.  
  
@@ -91,3 +93,8 @@ Imagine parsing breaking a text file up into sentences and then words in order t
 It is doable with lists, but it may make you think much more than necessary because you will have to remember which numbers correspond to which objects you've created by splitting the text up. 
 
 With dictionaries, you can assign these objects meaningful names like textFile['lines'] = [l for l in f.split('.')]. You can use things with meaning to you to identify the location of important data. 
+
+#### Further Reading
+
++ [The Mighty Dictionary](https://www.youtube.com/watch?v=C4Kc8xzcA68)
++ [Loop Like a Native](https://www.youtube.com/watch?v=EnSu9hHGq5o)
