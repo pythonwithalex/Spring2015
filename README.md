@@ -44,17 +44,22 @@ Note that the reading posted for each week in the syllabus is intended to be don
 | reading     |  [conditionals](https://github.com/pythonwithalex/Spring2015/blob/master/week2/conditionals.md), [lists and strings review](https://github.com/pythonwithalex/Spring2015/blob/master/week2/list_string_review.md) |
 | assignment    | [3 exercises](https://github.com/pythonwithalex/Spring2015/blob/master/week2/assignment.md) |
 
-| Week 3 | Working With Files, Modules, PEP8, Functions, Parameters vs Arguments |
+| Week 3 | Working With Files, Modules, Functions, Parameters vs Arguments |
 |:-------------:|:-----|
 | reading     | [dictionaries](https://docs.python.org/2/tutorial/datastructures.html#dictionaries) and [looping techniques with dictionaries](https://docs.python.org/2/tutorial/datastructures.html#looping-techniques) |
 | assignment    | TBD |
 
-| Week 4 | Functions in more depth, Dictionaries, Interfacing with a Database |
+| Week 4 | Functions in More Depth, Dictionaries, Interfacing with a Database |
 |:-------------:|:-----|
-| reading     | TBD |
+| viewing     | [Ned Batchelder's Talk, 'How to Loop Like a Native'] (https://www.youtube.com/watch?v=EnSu9hHGq5o) |
 | assignment    | TBD |
 
 | Week 5 | Network Programming Intro, A BareBones Chat Client |
 |:-------------:|:-----|
-| reading     | [python network programming](https://www.youtube.com/watch?v=XiVVYfgDolU) and [looping techniques with dictionaries](https://docs.python.org/2/tutorial/datastructures.html#looping-techniques) |
+| viewing     | [python network programming](https://www.youtube.com/watch?v=XiVVYfgDolU) |
+| assignment    | TBD |
+
+| Week 6 | Object-Oriented Programming, PEP8, Documenation |
+|:-------------:|:-----|
+| reading     | TBD |
 | assignment    | TBD |
