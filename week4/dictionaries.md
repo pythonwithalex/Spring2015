@@ -2,7 +2,7 @@
 
 A dictionary is a data structure that holds {key, value} pairs. Other languages refer to this class of data structure as an *associative array* or a *hash map*.
 
-We say that a Python dictionary 'maps' keys to values. In other words, you look up a key in a dictionary like this:
+We say that a Python dictionary 'maps' keys to values. In other words, you perform *dictionary lookup* like this:
 
 ````python
 ball['weight']
@@ -12,53 +12,58 @@ and get a value back:
 15.2
 ````
 
-Let's backup for a second.  You can create a dictionary in two ways:
+Let's backup for a second.  How do we create a dictionary object? Well, there are two ways:
 
 ````python
-# the explicit dict() way:
+# the explicit way, using a dict() 'construtor' function:
 ball = dict()
 # a dictionary literal:
 ball = {}
 `````
+You can use either of these methods, but note the differences in what is syntactically allowed in each case.
 
 Once you've created a dict object, you can add values to it like this:
 
 ````python
 
-ball['weight'] = 15
+ball['weight'] = 15.2
 ball['pos'] = [3,4]
 
 ````
 
+#### Alternate methods of creating a dict()
+````python
+# create a dict and populate it with values all at once
+d = dict(a=1,b=2,c=3)
+print d
+{'a': 1, 'b': 2, 'c': 3}
+# an equivalent method using the literal syntax
+d = { 'a' : 1, 'b' : 2, 'c' : 3}
+````
+
+Note that with `dict(a=1,b=2,c=3)`, the keys are not explicitly strings. They are converted to strings by the `dict()` constructor function.  
+
 #### Some Facts about Dictionaries
-+ They are incredibly useful for storing data under human-friendly labels. 
-+ They do not store their key value pairs in any dependable order, so don't use them for sequential data.
-+ The label must be immutable, meaning you can't use a list as a key that maps to some value.
+
++ They are incredibly useful for storing data under human-friendly labels known as **keys**. 
++ Dictionaries may *seem* to store their keys and values in an dependable order, but they in fact do not.  Try writing a python script that creates a dict and prints out the values.  Run it.  Then reboot your computer and run it again.  You will find that the results differ.  Key point: do not use them as a container for sequential data.
++ Dictionary keys must be immutable, meaning you can't use a list as a key that maps to some value. You can use a tuple (which we haven't really covered) because a tuple is an immutable type.
 
 ````python
-l = [1,2,3]
-mydict[l]
+l = [1,2]
+mydict[l] = 
 TypeError: unhashable type: 'list'
+l = (1,2)
+mydict[l] = '0x55aa'
+print mydict[l]
+0x55aa
 ````
-+ You cannot rely on the order of the items in the dictionary.  This means that they **are not for** sequential data where the order of the items in your collection should be stable.  If you have a Python program that relies on the apparent order of a dictionary, it might work for a while, but once you reboot your computer, you will most likely find that order has changed.  
- 
-
-You can't use slice syntax with a dictionaries because objects aren't located by position. In fact, they are added to a dictionary in an arbitrary order, so you should never depend on Python's built in DICT for order. 
-
-What can a key be, you might ask? 
-A key can be any immutable type, which means that it has to be a type that can't change. Without getting into the details of how a dictionary works (if you're interested, look up 'hash function'). 
-
-A dictionary key can be an integer, a string, a boolean value (which just means it can be True or False). 
-Thus, a dictionary key CANT be a list, another dictionary, a set. 
-A dictionary can have dictionaries or mutable data types as its VALUES (this is quite useful). 
-Can you take a guess at why the keys can't be immutable? 
 
 
-WORKING WITH DICTIONARIES 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
-We create an empty dictionary like this: 
+#### Useful Dictionary Examples
 
+d = dict(
 d = {} 
 or 
 d = dict() 
