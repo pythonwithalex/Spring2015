@@ -1,5 +1,4 @@
-DICTIONARIES 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+#### DICTIONARIES 
 
 A dictionary is an object that holds {key, value} pairs. 
 
