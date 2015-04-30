@@ -17,11 +17,13 @@ TODAY
 
 NEXT WEEK:
 
-1. modify our program so it takes command line arguments. Args include:
+1. Improve the interface so we have options to ...
+2. Provide task modification capabilities
+3. modify our program so it takes command line arguments. Args include:
  - Number of weeks out to show tasks for
-2. Abstract our database into a module and import that
-3. Load schema from a file with executescript method
-4. Have the reminder.py script email us with upcoming events
+4. Abstract our database into a module and import that
+5. Load schema from a file with executescript method
+6. Have the reminder.py script email us with upcoming events
 
 
 '''
@@ -29,6 +31,9 @@ NEXT WEEK:
 # imports
 
 # set up database connection
+
+# write our schema statement, e.g. CREATE TABLE reminders (id INTEGER PRIMARY KEY)
+# note, integer primary key fields are autoincremented by default
 
 # create db table if not already existing
 
