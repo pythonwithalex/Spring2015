@@ -9,14 +9,19 @@
 + Function Stack, for loop over a list of functions
 + Recursion Examples, Recursion vs Iteration
 
+#### Tuples
++ like a list, but immutable, aka read-only
++ use case: homogenous data
++ a tuple, aka, an n-tuple, is a read-only quasi-list structure of N items
++ much better performance than a list due to immutability
+
 #### Dictionaries
 + Syntax, use cases
 + creating dictionaries
 + creating dictionaries out of lists using dict(zip(lista,listb))
 
 #### Entering Data into a Database using Python Dictionaries
-+ parsing a file into dict data
-+ sqlite setup
-  + reading database schema
-+ committing data to db, retrieving it later
++ taking raw_input data and entering it into our local database
++ sqlite setup (connection, cursor, select statements, rows, committing data)
+
 
