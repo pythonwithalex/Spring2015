@@ -8,6 +8,7 @@ A bare-bones task management application
 
 TODAY
 
+0. Talk about our schema
 1. set up an sqlite3 database 
 2. get user's task information 
 3. convert the user's date and time information into a datetime object
@@ -16,7 +17,11 @@ TODAY
 
 NEXT WEEK:
 
-1. modify our program so it takes command line arguments 
+1. modify our program so it takes command line arguments. Args include:
+ - Number of weeks out to show tasks for
+2. Abstract our database into a module and import that
+3. Load schema from a file with executescript method
+4. Have the reminder.py script email us with upcoming events
 
 
 '''
