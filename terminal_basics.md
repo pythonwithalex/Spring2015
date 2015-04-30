@@ -119,6 +119,8 @@ writing_idiomatic_python_3.pdf
 **Open a PDF from the command line**
 ````bash
 al-laptop:python alexr$ cd /Users/alexr/Documents
+al-laptop:python alexr$ ls
+ThinkPython.pdf
 al-laptop:Documents alexr$ open ThinkPython.pdf
 ````
 
