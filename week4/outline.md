@@ -16,6 +16,7 @@
 + much better performance than a list due to immutability
 
 #### Dictionaries
++ see my [slides] (https://docs.google.com/presentation/d/1K2zssbmjiyTwdSCUajrJADRrKvELNCGsfcs2ak8EDu8/edit?usp=sharing)
 + Syntax, use cases
 + creating dictionaries
 + creating dictionaries out of lists using dict(zip(lista,listb))
