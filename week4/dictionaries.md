@@ -1,5 +1,6 @@
 #### Dictionaries
 
+note: see my [slides](https://docs.google.com/presentation/d/1K2zssbmjiyTwdSCUajrJADRrKvELNCGsfcs2ak8EDu8/edit?usp=sharing) for more on dictionaries.
 A dictionary is a data structure that holds {key, value} pairs. Other languages refer to this class of data structure as an *associative array* or a *hash map*.
 
 We say that a Python dictionary 'maps' keys to values. In other words, you perform a *dictionary lookup* like this:
