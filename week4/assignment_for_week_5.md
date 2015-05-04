@@ -29,5 +29,5 @@ Instead of the sample message above, decode the following text (should take the 
 The text you're decoding is widely considered a good manual for writing quality pythonic code, so it's worth a glance!
 
 
-A hint: there are certain characters that don't get translated from the string above.
+A hint: there are certain characters that don't get encrypted or decrypted from the string above.
 
