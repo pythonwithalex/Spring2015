@@ -1,24 +1,5 @@
 #!/usr/bin/env python
 
-# get a third of the square of half of the reverse of the str() of the max of this list [01,22,1,1.00,4,-20]
-
-# decorator for str to float conversion
-def string_to_float(func):
-  def inner(n):
-    if type(n) is str:
-      return func(float(n))
-  return inner
-
-# decorator for  float to string conversion
-# try turnary here
-def float_to_str(func):
-  def inner(n):
-    if type(n) in [int,float]:
-      return str(n)
-    else:
-      return n
-  return inner
-
 def tostr(n):
   return str(n) if type(n) is not str else n
 
