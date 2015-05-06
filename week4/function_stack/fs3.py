@@ -21,10 +21,10 @@ def reverse(s):
 data = [01,22,1,1.00,4,-20]
 result = data
 function_stack = [max,tostr,reverse,toint,halfof,squareof,thirdof]
-function_stack.reverse()
+
 
 while function_stack:
-  f = function_stack.pop()
+  f = function_stack.pop(0)
   result = f(result)
 
 print result
