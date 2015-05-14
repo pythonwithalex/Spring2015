@@ -1,27 +1,27 @@
 #!/usr/bin/env python
 
-# resource for api.search
-# http://docs.tweepy.org/en/v3.3.0/api.html?highlight=search#API.search
+# this gets all the tweets in temporal order
+# for the duration of a redsox game
 
-# Exercise: 
-# 1) find last redsox game date, (may 13th)
-# 2) search for all tweets on the day of that game
+# Tasks: sort, deduplicate, print out most frequent words
 
+# steps:
+
+# get a Twitter API key
+# search for #redsox hashtag 
 
 import tweepy
 
-consumer_key = 'YOUR_KEY'
-consumer_secret = 'YOUR_SECRET'
-access_token = 'YOUR_ACCESS_TOKEN'
-access_token_secret = 'YOUR_TOKEN_SECRET'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
-# WRITE TWITTER RESULTS TO A FILE
-tweet_file = open('output.txt','a')
-
+tweet_file = open('output.txt','w')
 tweet_count = 0
 
 tweets = tweepy.Cursor(api.search,q="#redsox",\
@@ -30,9 +30,7 @@ tweets = tweepy.Cursor(api.search,q="#redsox",\
                        until="2015-05-14",
                        ).items()
 
-tweet_file.write('time,text\n')
 for tweet in tweets:
-  tweet_count += 1
-  tweet_file.write('{}\n{}\n\n'.format(tweet.created_at,tweet.text.encode('utf-8' )))
+  tweet_file.write('{}\n{}\n\n'.format(tweet.created_at,\
+                                       tweet.text.encode('utf-8')))
 tweet_file.close()
-print "{} TWEETS".format(tweet_count)
