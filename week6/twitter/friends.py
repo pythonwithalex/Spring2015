@@ -12,7 +12,5 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
 
-# the Cursor is what lets you navigate the api 
 for friend in tweepy.Cursor(api.friends).items():
-    # Process the friend here
     print(friend.name)
