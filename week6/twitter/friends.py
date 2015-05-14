@@ -23,4 +23,4 @@ friend_objs = [ friend for friend in tweepy.Cursor(api.friends).items() ]
 
 print 'you have {} friends on twitter'.format(len(friend_objs))
 for friend in tweepy.Cursor(api.friends).items():
-    print(friend.name)
+    print('+ {}'.format(friend.name))
