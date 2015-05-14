@@ -1,3 +1,8 @@
+## Get Tweepy
+
++ go to a terminal
++ run 'pip install tweepy'
+
 ## Twitter Application Setup
 
 Steps you need to do via Twitter.com:
