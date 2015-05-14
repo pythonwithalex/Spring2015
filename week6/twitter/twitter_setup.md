@@ -16,7 +16,7 @@ Setup code in your application:
 ````python
 import tweepy
 
-# paste the keys you got from twitter.com into the string quotes below
+# paste the keys you got from apps.twitter.com into the string quotes below
 consumer_key = ''
 consumer_secret = ''
 auth_key = ''
