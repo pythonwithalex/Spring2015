@@ -21,8 +21,8 @@ tweet_count = 0
 
 tweets = tweepy.Cursor(api.search,q="#redsox",\
                        lang="en",
-                       since_id="2015-05-13",
-                       until="2015-05-14",
+                       since_id="2015-05-13 04:00:00",
+                       until="2015-05-14 00:00:00",
                        ).items()
 
 for tweet in tweets:
