@@ -1,14 +1,9 @@
 #!/usr/bin/env python
 
-# this gets all the tweets in temporal order
+# this script will eventually get all the tweets in temporal order
 # for the duration of a redsox game
 
-# Tasks: sort, deduplicate, print out most frequent words
-
-# steps:
-
-# get a Twitter API key
-# search for #redsox hashtag 
+# now it gives you all tweets for the whole day of the game
 
 import tweepy
 
