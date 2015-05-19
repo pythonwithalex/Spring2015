@@ -4,7 +4,8 @@
 from math import pi
 
 # here I will define a Shape class, a circle class and a square class.  
-# The circle and square classes inherit 
+# The circle and square classes inherit the qualities of the shape class
+
 class Shape(object):
 
   name = 'general shape'
