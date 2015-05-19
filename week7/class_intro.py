@@ -1,7 +1,10 @@
 #!/usr/env/bin python
+# An introductory example to Object Oriented Programming
 
 from math import pi
 
+# here I will define a Shape class, a circle class and a square class.  
+# The circle and square classes inherit 
 class Shape(object):
 
   name = 'general shape'
@@ -16,9 +19,6 @@ class Circle(Shape):
 
   def __init__(self,radius):
     self.radius = radius
-
-  def speak(self):
-    print "I am a {}.".format(self.name)
 
   def get_circumference(self):
     diameter = 2 * self.radius
@@ -35,13 +35,21 @@ class Square(Shape):
   def __init__(self,side):
     self.side = side
 
-  def speak(self):
-    print "I am a {}".format(self.name)
-
   def get_area(self):
     return self.side**2
 
+
+# now I will create objects out of the classes defined above
+
 circle = Circle(5)
+circle.speak()
 print circle.radius
 print circle.get_circumference()
 print circle.get_area()
+
+square = Square(4)
+square.speak()
+print square.side
+print square.get_area()
+print circle.radius
+print circle.radius
