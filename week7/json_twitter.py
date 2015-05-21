@@ -10,7 +10,7 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
-tweets = [tweet._json for tweet in api.user_timeline('Slavojiek',count=200)]
+tweets = [tweet._json for tweet in api.user_timeline('Slavojiek',count=200) if not tweet.retweeted]
 tweets_text = [tweet['text'] for tweet in tweets]
 
 def pare(word):
@@ -28,8 +28,8 @@ def pare(word):
                 "&",
                 "‘"
                     )
-    for i in rm_chars:
-        word = word.strip(i)    
+    for c in rm_chars:
+        word = word.strip(c)    
 
     return word
 
