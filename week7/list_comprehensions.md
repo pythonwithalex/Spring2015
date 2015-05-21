@@ -1,4 +1,5 @@
-## Ways to make List Comprehensions Easier to Write and Reason about 
+## List Comprehensions:
+#### Ways to make them easier to write and to reason about 
 
 
 
