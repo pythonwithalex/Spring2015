@@ -12,8 +12,7 @@ If you enjoy programming and want to either 1) get way better at it in an effici
 
 #### Peter Norvig's course on Udacity
 
-+ This explores 'Pythonic' problem-solving in a uncommonly great way
-+ [Design of Computer Programs] (https://www.udacity.com/course/design-of-computer-programs--cs212)
++ This explores 'Pythonic' problem-solving in a uncommonly great way: [Design of Computer Programs] (https://www.udacity.com/course/design-of-computer-programs--cs212)
 
 #### Web Development
 
